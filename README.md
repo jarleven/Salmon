@@ -1,6 +1,9 @@
 # Salmon
 
 
+avconv -rtsp_transport tcp -stimeout 50000000 -i "rtsp://192.168.1.10:554/user=admin&password=&channel=1&stream=0.sdp?real_stream" -c copy -map 0 -f segment -segment_time 600 -reset_timestamps 1 -segment_format mp4 "ipcam-11--%05d.mp4"
+
+
 mkdir $(date -d "1 day ago" '+%Y-%m-%d')
 
 find . -daystart -mtime 1 -print
