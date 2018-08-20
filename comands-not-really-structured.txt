@@ -16,3 +16,10 @@ rsync -r -a -v -e ssh jarleven@192.168.1.166:/home/jarleven/Archive/ /home/trede
 -a : Archive mode
 -v : Verbose
 -e : Specify shell
+
+
+
+SLIDESHOW of images in a folder
+**********************************'
+gsettings set org.gnome.eog.fullscreen seconds 1
+eog --slide-show /media/jarleven/Laksen/movement
