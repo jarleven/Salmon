@@ -1,5 +1,7 @@
 
 
+rtsp://192.168.1.10:554/user=admin&password=&channel=0&stream=0.sdp?real_stream
+
 rtsp://192.168.1.116:554/user=admin&password=&channel=1&stream=0.sdp?
 
 rtsp://192.168.1.10:554/user=admin&password=&channe1=1&stream=1.sdp?
