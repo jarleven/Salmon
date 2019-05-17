@@ -7,3 +7,6 @@ ffmpeg -i input.mp4 -vf deshake output.mp4
 ```
 
 
+```
+sudo apt install libimage-exiftool-perl
+```
