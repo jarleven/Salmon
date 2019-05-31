@@ -78,10 +78,10 @@ for filepath in glob.iglob(folder):
     #print(res)
     #print(crlf)
 
-    text_file.write(label+"___---___"+str(res)+"___---___"+filepath+crlf)
+    text_file.write(label+"___---___"+str(res)+"___---___"+filepath+"___---___"+crlf)
 
 
-  #f processedcnt == 10:
+  #if processedcnt == 10:
   #   break
 
 
