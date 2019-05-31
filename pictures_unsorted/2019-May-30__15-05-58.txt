@@ -1,0 +1,215 @@
+Testing.
+coral reef___---___0.324219___---___/home/mendel/test/bilde--2018-06-10_00-07-24--offset_194sec__1_ipcam-2--00172.mp4.jpg
+tiger shark, Galeocerdo cuvieri___---___0.101562___---___/home/mendel/test/bilde--2018-06-10_00-07-24--offset_194sec__1_ipcam-2--00172.mp4.jpg
+sturgeon___---___0.101562___---___/home/mendel/test/bilde--2018-06-10_00-07-24--offset_194sec__1_ipcam-2--00172.mp4.jpg
+wreck___---___0.265625___---___/home/mendel/test/bilde--2018-06-21_12-10-52--offset_114sec__12_ipcam-1--00301.mp4.jpg
+coral reef___---___0.214844___---___/home/mendel/test/bilde--2018-06-21_12-10-52--offset_114sec__12_ipcam-1--00301.mp4.jpg
+gar, garfish, garpike, billfish, Lepisosteus osseus___---___0.15625___---___/home/mendel/test/bilde--2018-06-21_12-10-52--offset_114sec__12_ipcam-1--00301.mp4.jpg
+coral reef___---___0.792969___---___/home/mendel/test/ipcam-6--00009.mp4-0288.jpg
+coral reef___---___0.820312___---___/home/mendel/test/bilde--2018-06-17_16-32-28--offset_178sec__7_ipcam-2--00581.mp4.jpg
+snorkel___---___0.863281___---___/home/mendel/test/ipcam-6--00304.mp4_6558.jpg
+hammerhead, hammerhead shark___---___0.804688___---___/home/mendel/test/bilde--2018-06-22_04-51-12--offset_362sec__4_ipcam-1--00401.mp4.jpg
+tiger shark, Galeocerdo cuvieri___---___0.101562___---___/home/mendel/test/bilde--2018-06-22_04-51-12--offset_362sec__4_ipcam-1--00401.mp4.jpg
+hammerhead, hammerhead shark___---___0.238281___---___/home/mendel/test/bilde--2018-06-17_12-42-24--offset_427sec__20_ipcam-2--00558.mp4.jpg
+coral reef___---___0.238281___---___/home/mendel/test/bilde--2018-06-17_12-42-24--offset_427sec__20_ipcam-2--00558.mp4.jpg
+stingray___---___0.160156___---___/home/mendel/test/bilde--2018-06-17_12-42-24--offset_427sec__20_ipcam-2--00558.mp4.jpg
+coral reef___---___0.78125___---___/home/mendel/test/bilde--2018-06-09_22-27-22--offset_571sec__7_ipcam-2--00162.mp4.jpg
+loggerhead, loggerhead turtle, Caretta caretta___---___0.109375___---___/home/mendel/test/bilde--2018-06-09_22-27-22--offset_571sec__7_ipcam-2--00162.mp4.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.851562___---___/home/mendel/test/ipcam-6--00271.mp4_5454.jpg
+snorkel___---___0.777344___---___/home/mendel/test/ipcam-6--00304.mp4_6588.jpg
+scuba diver___---___0.175781___---___/home/mendel/test/ipcam-6--00304.mp4_6588.jpg
+coral reef___---___0.867188___---___/home/mendel/test/bilde--2018-06-22_05-41-13--offset_21sec__0_ipcam-1--00406.mp4.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.4375___---___/home/mendel/test/ipcam-6--00353.mp4_6996.jpg
+gar, garfish, garpike, billfish, Lepisosteus osseus___---___0.3125___---___/home/mendel/test/ipcam-6--00353.mp4_6996.jpg
+sturgeon___---___0.160156___---___/home/mendel/test/ipcam-6--00353.mp4_6996.jpg
+snorkel___---___0.917969___---___/home/mendel/test/ipcam-6--00304.mp4_6744.jpg
+hammerhead, hammerhead shark___---___0.464844___---___/home/mendel/test/bilde--2018-06-17_12-52-24--offset_79sec__2_ipcam-2--00559.mp4.jpg
+tiger shark, Galeocerdo cuvieri___---___0.289062___---___/home/mendel/test/bilde--2018-06-17_12-52-24--offset_79sec__2_ipcam-2--00559.mp4.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.707031___---___/home/mendel/test/ipcam-6--00350.mp4_11208.jpg
+sturgeon___---___0.195312___---___/home/mendel/test/ipcam-6--00350.mp4_11208.jpg
+tiger shark, Galeocerdo cuvieri___---___0.625___---___/home/mendel/test/bilde--2018-06-22_09-51-18--offset_506sec__23_ipcam-1--00431.mp4.jpg
+great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias___---___0.164062___---___/home/mendel/test/bilde--2018-06-22_09-51-18--offset_506sec__23_ipcam-1--00431.mp4.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.59375___---___/home/mendel/test/ipcam-6--00261.mp4_402.jpg
+tiger shark, Galeocerdo cuvieri___---___0.1875___---___/home/mendel/test/ipcam-6--00261.mp4_402.jpg
+sturgeon___---___0.144531___---___/home/mendel/test/ipcam-6--00261.mp4_402.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.945312___---___/home/mendel/test/ipcam-6--00290.mp4_12114.jpg
+sturgeon___---___0.339844___---___/home/mendel/test/ipcam-6--00225.mp4_7122.jpg
+great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias___---___0.164062___---___/home/mendel/test/ipcam-6--00225.mp4_7122.jpg
+tiger shark, Galeocerdo cuvieri___---___0.101562___---___/home/mendel/test/ipcam-6--00225.mp4_7122.jpg
+sturgeon___---___0.632812___---___/home/mendel/test/ipcam-6--00353.mp4_8346.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.152344___---___/home/mendel/test/ipcam-6--00353.mp4_8346.jpg
+tiger shark, Galeocerdo cuvieri___---___0.132812___---___/home/mendel/test/ipcam-6--00353.mp4_8346.jpg
+hammerhead, hammerhead shark___---___0.316406___---___/home/mendel/test/bilde--2018-06-17_12-52-24--offset_290sec__8_ipcam-2--00559.mp4.jpg
+coral reef___---___0.195312___---___/home/mendel/test/bilde--2018-06-17_12-52-24--offset_290sec__8_ipcam-2--00559.mp4.jpg
+tiger shark, Galeocerdo cuvieri___---___0.160156___---___/home/mendel/test/bilde--2018-06-17_12-52-24--offset_290sec__8_ipcam-2--00559.mp4.jpg
+snorkel___---___0.992188___---___/home/mendel/test/ipcam-6--00304.mp4_6594.jpg
+coral reef___---___0.625___---___/home/mendel/test/bilde--2018-06-17_11-02-22--offset_138sec__7_ipcam-2--00548.mp4.jpg
+tiger shark, Galeocerdo cuvieri___---___0.566406___---___/home/mendel/test/ipcam-6--00261.mp4_336.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.167969___---___/home/mendel/test/ipcam-6--00261.mp4_336.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.5___---___/home/mendel/test/ipcam-6--00280.mp4_14898.jpg
+sturgeon___---___0.3125___---___/home/mendel/test/ipcam-6--00280.mp4_14898.jpg
+tiger shark, Galeocerdo cuvieri___---___0.148438___---___/home/mendel/test/ipcam-6--00280.mp4_14898.jpg
+hammerhead, hammerhead shark___---___0.308594___---___/home/mendel/test/bilde--2018-06-17_12-42-24--offset_61sec__5_ipcam-2--00558.mp4.jpg
+coral reef___---___0.207031___---___/home/mendel/test/bilde--2018-06-17_12-42-24--offset_61sec__5_ipcam-2--00558.mp4.jpg
+tiger shark, Galeocerdo cuvieri___---___0.121094___---___/home/mendel/test/bilde--2018-06-17_12-42-24--offset_61sec__5_ipcam-2--00558.mp4.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.585938___---___/home/mendel/test/ipcam-6--00271.mp4_5484.jpg
+sturgeon___---___0.101562___---___/home/mendel/test/ipcam-6--00271.mp4_5484.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.847656___---___/home/mendel/test/ipcam-6--00280.mp4_14892.jpg
+sturgeon___---___0.128906___---___/home/mendel/test/ipcam-6--00280.mp4_14892.jpg
+sturgeon___---___0.378906___---___/home/mendel/test/ipcam-6--00261.mp4_360.jpg
+tiger shark, Galeocerdo cuvieri___---___0.160156___---___/home/mendel/test/ipcam-6--00261.mp4_360.jpg
+great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias___---___0.160156___---___/home/mendel/test/ipcam-6--00261.mp4_360.jpg
+hammerhead, hammerhead shark___---___0.972656___---___/home/mendel/test/bilde--2018-06-17_12-42-24--offset_158sec__9_ipcam-2--00558.mp4.jpg
+hammerhead, hammerhead shark___---___0.515625___---___/home/mendel/test/ipcam-6--00014.mp4-0027.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.1875___---___/home/mendel/test/ipcam-6--00014.mp4-0027.jpg
+snorkel___---___0.988281___---___/home/mendel/test/ipcam-6--00304.mp4_6570.jpg
+sturgeon___---___0.605469___---___/home/mendel/test/bilde--2018-06-09_22-27-22--offset_368sec__4_ipcam-2--00162.mp4.jpg
+tiger shark, Galeocerdo cuvieri___---___0.148438___---___/home/mendel/test/bilde--2018-06-09_22-27-22--offset_368sec__4_ipcam-2--00162.mp4.jpg
+sturgeon___---___0.464844___---___/home/mendel/test/ipcam-6--00353.mp4_8334.jpg
+wing___---___0.289062___---___/home/mendel/test/ipcam-6--00353.mp4_8334.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.355469___---___/home/mendel/test/bilde--2018-06-10_05-37-30--offset_240sec__2_ipcam-2--00205.mp4.jpg
+coral reef___---___0.195312___---___/home/mendel/test/bilde--2018-06-10_05-37-30--offset_240sec__2_ipcam-2--00205.mp4.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.703125___---___/home/mendel/test/ipcam-6--00271.mp4_5442.jpg
+sturgeon___---___0.105469___---___/home/mendel/test/ipcam-6--00271.mp4_5442.jpg
+tiger shark, Galeocerdo cuvieri___---___0.683594___---___/home/mendel/test/ipcam-6--00261.mp4_384.jpg
+great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias___---___0.25___---___/home/mendel/test/ipcam-6--00261.mp4_384.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.972656___---___/home/mendel/test/ipcam-6--00353.mp4_7014.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.8125___---___/home/mendel/test/ipcam-6--00271.mp4_5460.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.203125___---___/home/mendel/test/bilde--2018-06-09_22-27-22--offset_391sec__5_ipcam-2--00162.mp4.jpg
+sturgeon___---___0.164062___---___/home/mendel/test/bilde--2018-06-09_22-27-22--offset_391sec__5_ipcam-2--00162.mp4.jpg
+gar, garfish, garpike, billfish, Lepisosteus osseus___---___0.765625___---___/home/mendel/test/ipcam-6--00266.mp4_10170.jpg
+hammerhead, hammerhead shark___---___0.441406___---___/home/mendel/test/bilde--2018-06-17_11-02-22--offset_11sec__2_ipcam-2--00548.mp4.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.316406___---___/home/mendel/test/bilde--2018-06-17_11-02-22--offset_11sec__2_ipcam-2--00548.mp4.jpg
+coral reef___---___0.703125___---___/home/mendel/test/bilde--2018-06-17_10-12-21--offset_237sec__5_ipcam-2--00543.mp4.jpg
+scuba diver___---___0.636719___---___/home/mendel/test/ipcam-6--00304.mp4_6612.jpg
+snorkel___---___0.304688___---___/home/mendel/test/ipcam-6--00304.mp4_6612.jpg
+snorkel___---___0.871094___---___/home/mendel/test/ipcam-6--00304.mp4_6606.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.398438___---___/home/mendel/test/ipcam-6--00280.mp4_14886.jpg
+sturgeon___---___0.398438___---___/home/mendel/test/ipcam-6--00280.mp4_14886.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.914062___---___/home/mendel/test/ipcam-6--00261.mp4_396.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.722656___---___/home/mendel/test/ipcam-6--00266.mp4_10158.jpg
+sturgeon___---___0.132812___---___/home/mendel/test/ipcam-6--00266.mp4_10158.jpg
+wing___---___0.179688___---___/home/mendel/test/bilde--2018-06-19_10-39-54--offset_201sec__16_ipcam-1--00004.mp4.jpg
+monitor___---___0.113281___---___/home/mendel/test/bilde--2018-06-19_10-39-54--offset_201sec__16_ipcam-1--00004.mp4.jpg
+wreck___---___0.65625___---___/home/mendel/test/ipcam-6--00271.mp4_2952.jpg
+coral reef___---___0.113281___---___/home/mendel/test/ipcam-6--00271.mp4_2952.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.972656___---___/home/mendel/test/ipcam-6--00261.mp4_432.jpg
+wing___---___0.726562___---___/home/mendel/test/ipcam-6--00353.mp4_8340.jpg
+sturgeon___---___0.175781___---___/home/mendel/test/ipcam-6--00353.mp4_8340.jpg
+tiger shark, Galeocerdo cuvieri___---___0.851562___---___/home/mendel/test/bilde--2018-06-17_08-32-19--offset_354sec__78_ipcam-2--00533.mp4.jpg
+tiger shark, Galeocerdo cuvieri___---___0.609375___---___/home/mendel/test/ipcam-6--00261.mp4_342.jpg
+great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias___---___0.195312___---___/home/mendel/test/ipcam-6--00261.mp4_342.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.476562___---___/home/mendel/test/bilde--2018-06-10_16-27-43--offset_287sec__10_ipcam-2--00270.mp4.jpg
+sturgeon___---___0.210938___---___/home/mendel/test/bilde--2018-06-10_16-27-43--offset_287sec__10_ipcam-2--00270.mp4.jpg
+grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus___---___0.277344___---___/home/mendel/test/ipcam-6--00225.mp4_7104.jpg
+platypus, duckbill, duckbilled platypus, duck-billed platypus, Ornithorhynchus anatinus___---___0.1875___---___/home/mendel/test/ipcam-6--00225.mp4_7104.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.8125___---___/home/mendel/test/ipcam-6--00271.mp4_5466.jpg
+sturgeon___---___0.242188___---___/home/mendel/test/ipcam-6--00225.mp4_7146.jpg
+tiger shark, Galeocerdo cuvieri___---___0.226562___---___/home/mendel/test/ipcam-6--00225.mp4_7146.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.941406___---___/home/mendel/test/ipcam-6--00353.mp4_6990.jpg
+coral reef___---___0.398438___---___/home/mendel/test/bilde--2018-06-17_10-12-21--offset_178sec__3_ipcam-2--00543.mp4.jpg
+hammerhead, hammerhead shark___---___0.203125___---___/home/mendel/test/bilde--2018-06-17_10-12-21--offset_178sec__3_ipcam-2--00543.mp4.jpg
+snorkel___---___0.917969___---___/home/mendel/test/ipcam-6--00304.mp4_6582.jpg
+sturgeon___---___0.605469___---___/home/mendel/test/ipcam-6--00271.mp4_2946.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.179688___---___/home/mendel/test/ipcam-6--00271.mp4_2946.jpg
+coral reef___---___0.652344___---___/home/mendel/test/bilde--2018-06-17_16-02-28--offset_93sec__2_ipcam-2--00578.mp4.jpg
+scuba diver___---___0.195312___---___/home/mendel/test/bilde--2018-06-17_16-02-28--offset_93sec__2_ipcam-2--00578.mp4.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.875___---___/home/mendel/test/ipcam-6--00353.mp4_6966.jpg
+tiger shark, Galeocerdo cuvieri___---___0.359375___---___/home/mendel/test/ipcam-6--00353.mp4_8352.jpg
+sturgeon___---___0.210938___---___/home/mendel/test/ipcam-6--00353.mp4_8352.jpg
+gar, garfish, garpike, billfish, Lepisosteus osseus___---___0.160156___---___/home/mendel/test/ipcam-6--00353.mp4_8352.jpg
+water snake___---___0.261719___---___/home/mendel/test/ipcam-6--00009.mp4-0296.jpg
+sea snake___---___0.214844___---___/home/mendel/test/ipcam-6--00009.mp4-0296.jpg
+coral reef___---___0.1875___---___/home/mendel/test/ipcam-6--00009.mp4-0296.jpg
+coral reef___---___0.488281___---___/home/mendel/test/bilde--2018-06-17_09-32-20--offset_475sec__16_ipcam-2--00539.mp4.jpg
+coral reef___---___0.929688___---___/home/mendel/test/bilde--2018-06-17_07-02-17--offset_135sec__30_ipcam-2--00524.mp4.jpg
+coral reef___---___0.417969___---___/home/mendel/test/bilde--2018-06-17_12-52-24--offset_206sec__6_ipcam-2--00559.mp4.jpg
+hammerhead, hammerhead shark___---___0.300781___---___/home/mendel/test/bilde--2018-06-17_12-52-24--offset_206sec__6_ipcam-2--00559.mp4.jpg
+hammerhead, hammerhead shark___---___0.714844___---___/home/mendel/test/bilde--2018-06-17_11-52-23--offset_385sec__13_ipcam-2--00553.mp4.jpg
+coral reef___---___0.140625___---___/home/mendel/test/bilde--2018-06-17_11-52-23--offset_385sec__13_ipcam-2--00553.mp4.jpg
+hammerhead, hammerhead shark___---___0.746094___---___/home/mendel/test/bilde--2018-06-17_11-02-22--offset_48sec__4_ipcam-2--00548.mp4.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.167969___---___/home/mendel/test/bilde--2018-06-17_11-02-22--offset_48sec__4_ipcam-2--00548.mp4.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.984375___---___/home/mendel/test/ipcam-6--00261.mp4_450.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.9375___---___/home/mendel/test/bilde--2018-06-09_22-37-22--offset_592sec__6_ipcam-2--00163.mp4.jpg
+coral reef___---___0.867188___---___/home/mendel/test/bilde--2018-06-17_12-42-24--offset_419sec__18_ipcam-2--00558.mp4.jpg
+tiger shark, Galeocerdo cuvieri___---___0.441406___---___/home/mendel/test/bilde--2018-06-22_09-51-18--offset_505sec__23_ipcam-1--00431.mp4.jpg
+great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias___---___0.359375___---___/home/mendel/test/bilde--2018-06-22_09-51-18--offset_505sec__23_ipcam-1--00431.mp4.jpg
+coral reef___---___0.179688___---___/home/mendel/test/bilde--2018-06-14_13-21-00--offset_247sec__2_ipcam-2--00130.mp4.jpg
+wreck___---___0.148438___---___/home/mendel/test/bilde--2018-06-14_13-21-00--offset_247sec__2_ipcam-2--00130.mp4.jpg
+scuba diver___---___0.105469___---___/home/mendel/test/bilde--2018-06-14_13-21-00--offset_247sec__2_ipcam-2--00130.mp4.jpg
+gar, garfish, garpike, billfish, Lepisosteus osseus___---___0.164062___---___/home/mendel/test/ipcam-6--00294.mp4_1080.jpg
+hammerhead, hammerhead shark___---___0.78125___---___/home/mendel/test/bilde--2018-06-17_11-02-22--offset_6sec__0_ipcam-2--00548.mp4.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.925781___---___/home/mendel/test/ipcam-6--00261.mp4_408.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.914062___---___/home/mendel/test/ipcam-6--00261.mp4_456.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.878906___---___/home/mendel/test/ipcam-6--00294.mp4_1086.jpg
+wing___---___0.46875___---___/home/mendel/test/ipcam-6--00271.mp4_2940.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.980469___---___/home/mendel/test/ipcam-6--00261.mp4_414.jpg
+coral reef___---___0.84375___---___/home/mendel/test/bilde--2018-06-17_12-12-23--offset_249sec__8_ipcam-2--00555.mp4.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.867188___---___/home/mendel/test/ipcam-6--00266.mp4_10146.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.875___---___/home/mendel/test/ipcam-6--00290.mp4_12108.jpg
+coral reef___---___0.667969___---___/home/mendel/test/bilde--2018-06-14_13-21-00--offset_256sec__3_ipcam-2--00130.mp4.jpg
+gar, garfish, garpike, billfish, Lepisosteus osseus___---___0.421875___---___/home/mendel/test/ipcam-6--00266.mp4_10152.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.265625___---___/home/mendel/test/ipcam-6--00266.mp4_10152.jpg
+sturgeon___---___0.175781___---___/home/mendel/test/ipcam-6--00266.mp4_10152.jpg
+snorkel___---___0.882812___---___/home/mendel/test/ipcam-6--00304.mp4_6564.jpg
+tiger shark, Galeocerdo cuvieri___---___0.539062___---___/home/mendel/test/bilde--2018-06-17_11-12-22--offset_353sec__7_ipcam-2--00549.mp4.jpg
+sturgeon___---___0.195312___---___/home/mendel/test/bilde--2018-06-17_11-12-22--offset_353sec__7_ipcam-2--00549.mp4.jpg
+hammerhead, hammerhead shark___---___0.820312___---___/home/mendel/test/bilde--2018-06-17_08-52-19--offset_382sec__44_ipcam-2--00535.mp4.jpg
+tiger shark, Galeocerdo cuvieri___---___0.714844___---___/home/mendel/test/ipcam-6--00353.mp4_8358.jpg
+great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias___---___0.175781___---___/home/mendel/test/ipcam-6--00353.mp4_8358.jpg
+tiger shark, Galeocerdo cuvieri___---___0.449219___---___/home/mendel/test/ipcam-6--00280.mp4_14910.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.367188___---___/home/mendel/test/ipcam-6--00280.mp4_14910.jpg
+sturgeon___---___0.125___---___/home/mendel/test/ipcam-6--00280.mp4_14910.jpg
+hammerhead, hammerhead shark___---___0.511719___---___/home/mendel/test/ipcam-6--00014.mp4-0026.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.199219___---___/home/mendel/test/ipcam-6--00014.mp4-0026.jpg
+tiger shark, Galeocerdo cuvieri___---___0.164062___---___/home/mendel/test/ipcam-6--00014.mp4-0026.jpg
+hammerhead, hammerhead shark___---___0.769531___---___/home/mendel/test/bilde--2018-06-17_09-12-20--offset_177sec__9_ipcam-2--00537.mp4.jpg
+tiger shark, Galeocerdo cuvieri___---___0.164062___---___/home/mendel/test/bilde--2018-06-17_09-12-20--offset_177sec__9_ipcam-2--00537.mp4.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.382812___---___/home/mendel/test/bilde--2018-06-17_12-42-24--offset_163sec__10_ipcam-2--00558.mp4.jpg
+hammerhead, hammerhead shark___---___0.292969___---___/home/mendel/test/bilde--2018-06-17_12-42-24--offset_163sec__10_ipcam-2--00558.mp4.jpg
+hammerhead, hammerhead shark___---___0.835938___---___/home/mendel/test/bilde--2018-06-17_12-42-24--offset_65sec__6_ipcam-2--00558.mp4.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.929688___---___/home/mendel/test/ipcam-6--00353.mp4_8364.jpg
+snorkel___---___0.984375___---___/home/mendel/test/ipcam-6--00304.mp4_6618.jpg
+hammerhead, hammerhead shark___---___0.890625___---___/home/mendel/test/bilde--2018-06-17_06-42-17--offset_11sec__2_ipcam-2--00522.mp4.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.824219___---___/home/mendel/test/ipcam-6--00271.mp4_5472.jpg
+goldfish, Carassius auratus___---___0.28125___---___/home/mendel/test/ipcam-6--00350.mp4_11202.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.28125___---___/home/mendel/test/ipcam-6--00350.mp4_11202.jpg
+coral reef___---___0.125___---___/home/mendel/test/ipcam-6--00350.mp4_11202.jpg
+sturgeon___---___0.597656___---___/home/mendel/test/ipcam-6--00266.mp4_10176.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.347656___---___/home/mendel/test/ipcam-6--00266.mp4_10176.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.6875___---___/home/mendel/test/ipcam-6--00266.mp4_10164.jpg
+gar, garfish, garpike, billfish, Lepisosteus osseus___---___0.136719___---___/home/mendel/test/ipcam-6--00266.mp4_10164.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.757812___---___/home/mendel/test/ipcam-6--00261.mp4_390.jpg
+sturgeon___---___0.125___---___/home/mendel/test/ipcam-6--00261.mp4_390.jpg
+tiger shark, Galeocerdo cuvieri___---___0.417969___---___/home/mendel/test/bilde--2018-06-17_12-52-24--offset_265sec__7_ipcam-2--00559.mp4.jpg
+hammerhead, hammerhead shark___---___0.175781___---___/home/mendel/test/bilde--2018-06-17_12-52-24--offset_265sec__7_ipcam-2--00559.mp4.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.152344___---___/home/mendel/test/bilde--2018-06-17_12-52-24--offset_265sec__7_ipcam-2--00559.mp4.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.582031___---___/home/mendel/test/ipcam-6--00271.mp4_5448.jpg
+barracouta, snoek___---___0.125___---___/home/mendel/test/ipcam-6--00271.mp4_5448.jpg
+sturgeon___---___0.117188___---___/home/mendel/test/ipcam-6--00271.mp4_5448.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.4375___---___/home/mendel/test/ipcam-6--00271.mp4_5490.jpg
+gar, garfish, garpike, billfish, Lepisosteus osseus___---___0.160156___---___/home/mendel/test/ipcam-6--00271.mp4_5490.jpg
+barracouta, snoek___---___0.128906___---___/home/mendel/test/ipcam-6--00271.mp4_5490.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.867188___---___/home/mendel/test/ipcam-6--00261.mp4_420.jpg
+tiger shark, Galeocerdo cuvieri___---___0.5625___---___/home/mendel/test/ipcam-6--00261.mp4_366.jpg
+great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias___---___0.289062___---___/home/mendel/test/ipcam-6--00261.mp4_366.jpg
+coral reef___---___0.757812___---___/home/mendel/test/bilde--2018-06-17_12-52-24--offset_41sec__0_ipcam-2--00559.mp4.jpg
+sturgeon___---___0.757812___---___/home/mendel/test/bilde--2018-06-17_12-42-24--offset_46sec__2_ipcam-2--00558.mp4.jpg
+stingray___---___0.1875___---___/home/mendel/test/bilde--2018-06-17_08-42-19--offset_518sec__98_ipcam-2--00534.mp4.jpg
+hammerhead, hammerhead shark___---___0.152344___---___/home/mendel/test/bilde--2018-06-17_08-42-19--offset_518sec__98_ipcam-2--00534.mp4.jpg
+tiger shark, Galeocerdo cuvieri___---___0.117188___---___/home/mendel/test/bilde--2018-06-17_08-42-19--offset_518sec__98_ipcam-2--00534.mp4.jpg
+hammerhead, hammerhead shark___---___0.515625___---___/home/mendel/test/ipcam-6--00014.mp4-0024.jpg
+tiger shark, Galeocerdo cuvieri___---___0.367188___---___/home/mendel/test/ipcam-6--00014.mp4-0024.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.984375___---___/home/mendel/test/ipcam-6--00261.mp4_426.jpg
+tiger shark, Galeocerdo cuvieri___---___0.292969___---___/home/mendel/test/ipcam-6--00014.mp4-0025.jpg
+stingray___---___0.226562___---___/home/mendel/test/ipcam-6--00014.mp4-0025.jpg
+hammerhead, hammerhead shark___---___0.195312___---___/home/mendel/test/ipcam-6--00014.mp4-0025.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.890625___---___/home/mendel/test/ipcam-6--00280.mp4_14904.jpg
+hammerhead, hammerhead shark___---___0.523438___---___/home/mendel/test/bilde--2018-06-17_16-02-28--offset_189sec__6_ipcam-2--00578.mp4.jpg
+tiger shark, Galeocerdo cuvieri___---___0.21875___---___/home/mendel/test/bilde--2018-06-17_16-02-28--offset_189sec__6_ipcam-2--00578.mp4.jpg
+hammerhead, hammerhead shark___---___0.71875___---___/home/mendel/test/bilde--2018-06-17_11-02-22--offset_73sec__5_ipcam-2--00548.mp4.jpg
+tiger shark, Galeocerdo cuvieri___---___0.667969___---___/home/mendel/test/ipcam-6--00261.mp4_372.jpg
+great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias___---___0.152344___---___/home/mendel/test/ipcam-6--00261.mp4_372.jpg
+snorkel___---___0.980469___---___/home/mendel/test/ipcam-6--00304.mp4_6576.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.648438___---___/home/mendel/test/ipcam-6--00261.mp4_378.jpg
+tiger shark, Galeocerdo cuvieri___---___0.179688___---___/home/mendel/test/ipcam-6--00261.mp4_378.jpg

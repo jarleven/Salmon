@@ -1,0 +1,215 @@
+Images classified with: [/home/mendel/inception_v4_299_quant_edgetpu.tflite]
+coral reef___---___0.32422___---___1280x960___---___bilde--2018-06-10_00-07-24--offset_194sec__1_ipcam-2--00172.mp4.jpg
+tiger shark, Galeocerdo cuvieri___---___0.10156___---___1280x960___---___bilde--2018-06-10_00-07-24--offset_194sec__1_ipcam-2--00172.mp4.jpg
+sturgeon___---___0.10156___---___1280x960___---___bilde--2018-06-10_00-07-24--offset_194sec__1_ipcam-2--00172.mp4.jpg
+wreck___---___0.26562___---___1280x960___---___bilde--2018-06-21_12-10-52--offset_114sec__12_ipcam-1--00301.mp4.jpg
+coral reef___---___0.21484___---___1280x960___---___bilde--2018-06-21_12-10-52--offset_114sec__12_ipcam-1--00301.mp4.jpg
+gar, garfish, garpike, billfish, Lepisosteus osseus___---___0.15625___---___1280x960___---___bilde--2018-06-21_12-10-52--offset_114sec__12_ipcam-1--00301.mp4.jpg
+coral reef___---___0.79297___---___1280x960___---___ipcam-6--00009.mp4-0288.jpg
+coral reef___---___0.82031___---___1280x960___---___bilde--2018-06-17_16-32-28--offset_178sec__7_ipcam-2--00581.mp4.jpg
+snorkel___---___0.86328___---___240x240___---___ipcam-6--00304.mp4_6558.jpg
+hammerhead, hammerhead shark___---___0.80469___---___1280x960___---___bilde--2018-06-22_04-51-12--offset_362sec__4_ipcam-1--00401.mp4.jpg
+tiger shark, Galeocerdo cuvieri___---___0.10156___---___1280x960___---___bilde--2018-06-22_04-51-12--offset_362sec__4_ipcam-1--00401.mp4.jpg
+hammerhead, hammerhead shark___---___0.23828___---___1280x960___---___bilde--2018-06-17_12-42-24--offset_427sec__20_ipcam-2--00558.mp4.jpg
+coral reef___---___0.23828___---___1280x960___---___bilde--2018-06-17_12-42-24--offset_427sec__20_ipcam-2--00558.mp4.jpg
+stingray___---___0.16016___---___1280x960___---___bilde--2018-06-17_12-42-24--offset_427sec__20_ipcam-2--00558.mp4.jpg
+coral reef___---___0.78125___---___1280x960___---___bilde--2018-06-09_22-27-22--offset_571sec__7_ipcam-2--00162.mp4.jpg
+loggerhead, loggerhead turtle, Caretta caretta___---___0.10938___---___1280x960___---___bilde--2018-06-09_22-27-22--offset_571sec__7_ipcam-2--00162.mp4.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.85156___---___240x240___---___ipcam-6--00271.mp4_5454.jpg
+snorkel___---___0.77734___---___240x240___---___ipcam-6--00304.mp4_6588.jpg
+scuba diver___---___0.17578___---___240x240___---___ipcam-6--00304.mp4_6588.jpg
+coral reef___---___0.86719___---___1280x960___---___bilde--2018-06-22_05-41-13--offset_21sec__0_ipcam-1--00406.mp4.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.43750___---___240x240___---___ipcam-6--00353.mp4_6996.jpg
+gar, garfish, garpike, billfish, Lepisosteus osseus___---___0.31250___---___240x240___---___ipcam-6--00353.mp4_6996.jpg
+sturgeon___---___0.16016___---___240x240___---___ipcam-6--00353.mp4_6996.jpg
+snorkel___---___0.91797___---___240x240___---___ipcam-6--00304.mp4_6744.jpg
+hammerhead, hammerhead shark___---___0.46484___---___1280x960___---___bilde--2018-06-17_12-52-24--offset_79sec__2_ipcam-2--00559.mp4.jpg
+tiger shark, Galeocerdo cuvieri___---___0.28906___---___1280x960___---___bilde--2018-06-17_12-52-24--offset_79sec__2_ipcam-2--00559.mp4.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.70703___---___240x240___---___ipcam-6--00350.mp4_11208.jpg
+sturgeon___---___0.19531___---___240x240___---___ipcam-6--00350.mp4_11208.jpg
+tiger shark, Galeocerdo cuvieri___---___0.62500___---___1280x960___---___bilde--2018-06-22_09-51-18--offset_506sec__23_ipcam-1--00431.mp4.jpg
+great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias___---___0.16406___---___1280x960___---___bilde--2018-06-22_09-51-18--offset_506sec__23_ipcam-1--00431.mp4.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.59375___---___240x240___---___ipcam-6--00261.mp4_402.jpg
+tiger shark, Galeocerdo cuvieri___---___0.18750___---___240x240___---___ipcam-6--00261.mp4_402.jpg
+sturgeon___---___0.14453___---___240x240___---___ipcam-6--00261.mp4_402.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.94531___---___240x240___---___ipcam-6--00290.mp4_12114.jpg
+sturgeon___---___0.33984___---___240x240___---___ipcam-6--00225.mp4_7122.jpg
+great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias___---___0.16406___---___240x240___---___ipcam-6--00225.mp4_7122.jpg
+tiger shark, Galeocerdo cuvieri___---___0.10156___---___240x240___---___ipcam-6--00225.mp4_7122.jpg
+sturgeon___---___0.63281___---___240x240___---___ipcam-6--00353.mp4_8346.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.15234___---___240x240___---___ipcam-6--00353.mp4_8346.jpg
+tiger shark, Galeocerdo cuvieri___---___0.13281___---___240x240___---___ipcam-6--00353.mp4_8346.jpg
+hammerhead, hammerhead shark___---___0.31641___---___1280x960___---___bilde--2018-06-17_12-52-24--offset_290sec__8_ipcam-2--00559.mp4.jpg
+coral reef___---___0.19531___---___1280x960___---___bilde--2018-06-17_12-52-24--offset_290sec__8_ipcam-2--00559.mp4.jpg
+tiger shark, Galeocerdo cuvieri___---___0.16016___---___1280x960___---___bilde--2018-06-17_12-52-24--offset_290sec__8_ipcam-2--00559.mp4.jpg
+snorkel___---___0.99219___---___240x240___---___ipcam-6--00304.mp4_6594.jpg
+coral reef___---___0.62500___---___1280x960___---___bilde--2018-06-17_11-02-22--offset_138sec__7_ipcam-2--00548.mp4.jpg
+tiger shark, Galeocerdo cuvieri___---___0.56641___---___240x240___---___ipcam-6--00261.mp4_336.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.16797___---___240x240___---___ipcam-6--00261.mp4_336.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.50000___---___240x240___---___ipcam-6--00280.mp4_14898.jpg
+sturgeon___---___0.31250___---___240x240___---___ipcam-6--00280.mp4_14898.jpg
+tiger shark, Galeocerdo cuvieri___---___0.14844___---___240x240___---___ipcam-6--00280.mp4_14898.jpg
+hammerhead, hammerhead shark___---___0.30859___---___1280x960___---___bilde--2018-06-17_12-42-24--offset_61sec__5_ipcam-2--00558.mp4.jpg
+coral reef___---___0.20703___---___1280x960___---___bilde--2018-06-17_12-42-24--offset_61sec__5_ipcam-2--00558.mp4.jpg
+tiger shark, Galeocerdo cuvieri___---___0.12109___---___1280x960___---___bilde--2018-06-17_12-42-24--offset_61sec__5_ipcam-2--00558.mp4.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.58594___---___240x240___---___ipcam-6--00271.mp4_5484.jpg
+sturgeon___---___0.10156___---___240x240___---___ipcam-6--00271.mp4_5484.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.84766___---___240x240___---___ipcam-6--00280.mp4_14892.jpg
+sturgeon___---___0.12891___---___240x240___---___ipcam-6--00280.mp4_14892.jpg
+sturgeon___---___0.37891___---___240x240___---___ipcam-6--00261.mp4_360.jpg
+tiger shark, Galeocerdo cuvieri___---___0.16016___---___240x240___---___ipcam-6--00261.mp4_360.jpg
+great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias___---___0.16016___---___240x240___---___ipcam-6--00261.mp4_360.jpg
+hammerhead, hammerhead shark___---___0.97266___---___1280x960___---___bilde--2018-06-17_12-42-24--offset_158sec__9_ipcam-2--00558.mp4.jpg
+hammerhead, hammerhead shark___---___0.51562___---___1280x960___---___ipcam-6--00014.mp4-0027.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.18750___---___1280x960___---___ipcam-6--00014.mp4-0027.jpg
+snorkel___---___0.98828___---___240x240___---___ipcam-6--00304.mp4_6570.jpg
+sturgeon___---___0.60547___---___1280x960___---___bilde--2018-06-09_22-27-22--offset_368sec__4_ipcam-2--00162.mp4.jpg
+tiger shark, Galeocerdo cuvieri___---___0.14844___---___1280x960___---___bilde--2018-06-09_22-27-22--offset_368sec__4_ipcam-2--00162.mp4.jpg
+sturgeon___---___0.46484___---___240x240___---___ipcam-6--00353.mp4_8334.jpg
+wing___---___0.28906___---___240x240___---___ipcam-6--00353.mp4_8334.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.35547___---___1280x960___---___bilde--2018-06-10_05-37-30--offset_240sec__2_ipcam-2--00205.mp4.jpg
+coral reef___---___0.19531___---___1280x960___---___bilde--2018-06-10_05-37-30--offset_240sec__2_ipcam-2--00205.mp4.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.70312___---___240x240___---___ipcam-6--00271.mp4_5442.jpg
+sturgeon___---___0.10547___---___240x240___---___ipcam-6--00271.mp4_5442.jpg
+tiger shark, Galeocerdo cuvieri___---___0.68359___---___240x240___---___ipcam-6--00261.mp4_384.jpg
+great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias___---___0.25000___---___240x240___---___ipcam-6--00261.mp4_384.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.97266___---___240x240___---___ipcam-6--00353.mp4_7014.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.81250___---___240x240___---___ipcam-6--00271.mp4_5460.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.20312___---___1280x960___---___bilde--2018-06-09_22-27-22--offset_391sec__5_ipcam-2--00162.mp4.jpg
+sturgeon___---___0.16406___---___1280x960___---___bilde--2018-06-09_22-27-22--offset_391sec__5_ipcam-2--00162.mp4.jpg
+gar, garfish, garpike, billfish, Lepisosteus osseus___---___0.76562___---___240x240___---___ipcam-6--00266.mp4_10170.jpg
+hammerhead, hammerhead shark___---___0.44141___---___1280x960___---___bilde--2018-06-17_11-02-22--offset_11sec__2_ipcam-2--00548.mp4.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.31641___---___1280x960___---___bilde--2018-06-17_11-02-22--offset_11sec__2_ipcam-2--00548.mp4.jpg
+coral reef___---___0.70312___---___1280x960___---___bilde--2018-06-17_10-12-21--offset_237sec__5_ipcam-2--00543.mp4.jpg
+scuba diver___---___0.63672___---___240x240___---___ipcam-6--00304.mp4_6612.jpg
+snorkel___---___0.30469___---___240x240___---___ipcam-6--00304.mp4_6612.jpg
+snorkel___---___0.87109___---___240x240___---___ipcam-6--00304.mp4_6606.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.39844___---___240x240___---___ipcam-6--00280.mp4_14886.jpg
+sturgeon___---___0.39844___---___240x240___---___ipcam-6--00280.mp4_14886.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.91406___---___240x240___---___ipcam-6--00261.mp4_396.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.72266___---___240x240___---___ipcam-6--00266.mp4_10158.jpg
+sturgeon___---___0.13281___---___240x240___---___ipcam-6--00266.mp4_10158.jpg
+wing___---___0.17969___---___1280x960___---___bilde--2018-06-19_10-39-54--offset_201sec__16_ipcam-1--00004.mp4.jpg
+monitor___---___0.11328___---___1280x960___---___bilde--2018-06-19_10-39-54--offset_201sec__16_ipcam-1--00004.mp4.jpg
+wreck___---___0.65625___---___240x240___---___ipcam-6--00271.mp4_2952.jpg
+coral reef___---___0.11328___---___240x240___---___ipcam-6--00271.mp4_2952.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.97266___---___240x240___---___ipcam-6--00261.mp4_432.jpg
+wing___---___0.72656___---___240x240___---___ipcam-6--00353.mp4_8340.jpg
+sturgeon___---___0.17578___---___240x240___---___ipcam-6--00353.mp4_8340.jpg
+tiger shark, Galeocerdo cuvieri___---___0.85156___---___1280x960___---___bilde--2018-06-17_08-32-19--offset_354sec__78_ipcam-2--00533.mp4.jpg
+tiger shark, Galeocerdo cuvieri___---___0.60938___---___240x240___---___ipcam-6--00261.mp4_342.jpg
+great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias___---___0.19531___---___240x240___---___ipcam-6--00261.mp4_342.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.47656___---___1280x960___---___bilde--2018-06-10_16-27-43--offset_287sec__10_ipcam-2--00270.mp4.jpg
+sturgeon___---___0.21094___---___1280x960___---___bilde--2018-06-10_16-27-43--offset_287sec__10_ipcam-2--00270.mp4.jpg
+grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus___---___0.27734___---___240x240___---___ipcam-6--00225.mp4_7104.jpg
+platypus, duckbill, duckbilled platypus, duck-billed platypus, Ornithorhynchus anatinus___---___0.18750___---___240x240___---___ipcam-6--00225.mp4_7104.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.81250___---___240x240___---___ipcam-6--00271.mp4_5466.jpg
+sturgeon___---___0.24219___---___240x240___---___ipcam-6--00225.mp4_7146.jpg
+tiger shark, Galeocerdo cuvieri___---___0.22656___---___240x240___---___ipcam-6--00225.mp4_7146.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.94141___---___240x240___---___ipcam-6--00353.mp4_6990.jpg
+coral reef___---___0.39844___---___1280x960___---___bilde--2018-06-17_10-12-21--offset_178sec__3_ipcam-2--00543.mp4.jpg
+hammerhead, hammerhead shark___---___0.20312___---___1280x960___---___bilde--2018-06-17_10-12-21--offset_178sec__3_ipcam-2--00543.mp4.jpg
+snorkel___---___0.91797___---___240x240___---___ipcam-6--00304.mp4_6582.jpg
+sturgeon___---___0.60547___---___240x240___---___ipcam-6--00271.mp4_2946.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.17969___---___240x240___---___ipcam-6--00271.mp4_2946.jpg
+coral reef___---___0.65234___---___1280x960___---___bilde--2018-06-17_16-02-28--offset_93sec__2_ipcam-2--00578.mp4.jpg
+scuba diver___---___0.19531___---___1280x960___---___bilde--2018-06-17_16-02-28--offset_93sec__2_ipcam-2--00578.mp4.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.87500___---___240x240___---___ipcam-6--00353.mp4_6966.jpg
+tiger shark, Galeocerdo cuvieri___---___0.35938___---___240x240___---___ipcam-6--00353.mp4_8352.jpg
+sturgeon___---___0.21094___---___240x240___---___ipcam-6--00353.mp4_8352.jpg
+gar, garfish, garpike, billfish, Lepisosteus osseus___---___0.16016___---___240x240___---___ipcam-6--00353.mp4_8352.jpg
+water snake___---___0.26172___---___1280x960___---___ipcam-6--00009.mp4-0296.jpg
+sea snake___---___0.21484___---___1280x960___---___ipcam-6--00009.mp4-0296.jpg
+coral reef___---___0.18750___---___1280x960___---___ipcam-6--00009.mp4-0296.jpg
+coral reef___---___0.48828___---___1280x960___---___bilde--2018-06-17_09-32-20--offset_475sec__16_ipcam-2--00539.mp4.jpg
+coral reef___---___0.92969___---___1280x960___---___bilde--2018-06-17_07-02-17--offset_135sec__30_ipcam-2--00524.mp4.jpg
+coral reef___---___0.41797___---___1280x960___---___bilde--2018-06-17_12-52-24--offset_206sec__6_ipcam-2--00559.mp4.jpg
+hammerhead, hammerhead shark___---___0.30078___---___1280x960___---___bilde--2018-06-17_12-52-24--offset_206sec__6_ipcam-2--00559.mp4.jpg
+hammerhead, hammerhead shark___---___0.71484___---___1280x960___---___bilde--2018-06-17_11-52-23--offset_385sec__13_ipcam-2--00553.mp4.jpg
+coral reef___---___0.14062___---___1280x960___---___bilde--2018-06-17_11-52-23--offset_385sec__13_ipcam-2--00553.mp4.jpg
+hammerhead, hammerhead shark___---___0.74609___---___1280x960___---___bilde--2018-06-17_11-02-22--offset_48sec__4_ipcam-2--00548.mp4.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.16797___---___1280x960___---___bilde--2018-06-17_11-02-22--offset_48sec__4_ipcam-2--00548.mp4.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.98438___---___240x240___---___ipcam-6--00261.mp4_450.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.93750___---___1280x960___---___bilde--2018-06-09_22-37-22--offset_592sec__6_ipcam-2--00163.mp4.jpg
+coral reef___---___0.86719___---___1280x960___---___bilde--2018-06-17_12-42-24--offset_419sec__18_ipcam-2--00558.mp4.jpg
+tiger shark, Galeocerdo cuvieri___---___0.44141___---___1280x960___---___bilde--2018-06-22_09-51-18--offset_505sec__23_ipcam-1--00431.mp4.jpg
+great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias___---___0.35938___---___1280x960___---___bilde--2018-06-22_09-51-18--offset_505sec__23_ipcam-1--00431.mp4.jpg
+coral reef___---___0.17969___---___1280x960___---___bilde--2018-06-14_13-21-00--offset_247sec__2_ipcam-2--00130.mp4.jpg
+wreck___---___0.14844___---___1280x960___---___bilde--2018-06-14_13-21-00--offset_247sec__2_ipcam-2--00130.mp4.jpg
+scuba diver___---___0.10547___---___1280x960___---___bilde--2018-06-14_13-21-00--offset_247sec__2_ipcam-2--00130.mp4.jpg
+gar, garfish, garpike, billfish, Lepisosteus osseus___---___0.16406___---___240x240___---___ipcam-6--00294.mp4_1080.jpg
+hammerhead, hammerhead shark___---___0.78125___---___1280x960___---___bilde--2018-06-17_11-02-22--offset_6sec__0_ipcam-2--00548.mp4.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.92578___---___240x240___---___ipcam-6--00261.mp4_408.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.91406___---___240x240___---___ipcam-6--00261.mp4_456.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.87891___---___240x240___---___ipcam-6--00294.mp4_1086.jpg
+wing___---___0.46875___---___240x240___---___ipcam-6--00271.mp4_2940.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.98047___---___240x240___---___ipcam-6--00261.mp4_414.jpg
+coral reef___---___0.84375___---___1280x960___---___bilde--2018-06-17_12-12-23--offset_249sec__8_ipcam-2--00555.mp4.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.86719___---___240x240___---___ipcam-6--00266.mp4_10146.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.87500___---___240x240___---___ipcam-6--00290.mp4_12108.jpg
+coral reef___---___0.66797___---___1280x960___---___bilde--2018-06-14_13-21-00--offset_256sec__3_ipcam-2--00130.mp4.jpg
+gar, garfish, garpike, billfish, Lepisosteus osseus___---___0.42188___---___240x240___---___ipcam-6--00266.mp4_10152.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.26562___---___240x240___---___ipcam-6--00266.mp4_10152.jpg
+sturgeon___---___0.17578___---___240x240___---___ipcam-6--00266.mp4_10152.jpg
+snorkel___---___0.88281___---___240x240___---___ipcam-6--00304.mp4_6564.jpg
+tiger shark, Galeocerdo cuvieri___---___0.53906___---___1280x960___---___bilde--2018-06-17_11-12-22--offset_353sec__7_ipcam-2--00549.mp4.jpg
+sturgeon___---___0.19531___---___1280x960___---___bilde--2018-06-17_11-12-22--offset_353sec__7_ipcam-2--00549.mp4.jpg
+hammerhead, hammerhead shark___---___0.82031___---___1280x960___---___bilde--2018-06-17_08-52-19--offset_382sec__44_ipcam-2--00535.mp4.jpg
+tiger shark, Galeocerdo cuvieri___---___0.71484___---___240x240___---___ipcam-6--00353.mp4_8358.jpg
+great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias___---___0.17578___---___240x240___---___ipcam-6--00353.mp4_8358.jpg
+tiger shark, Galeocerdo cuvieri___---___0.44922___---___240x240___---___ipcam-6--00280.mp4_14910.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.36719___---___240x240___---___ipcam-6--00280.mp4_14910.jpg
+sturgeon___---___0.12500___---___240x240___---___ipcam-6--00280.mp4_14910.jpg
+hammerhead, hammerhead shark___---___0.51172___---___1280x960___---___ipcam-6--00014.mp4-0026.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.19922___---___1280x960___---___ipcam-6--00014.mp4-0026.jpg
+tiger shark, Galeocerdo cuvieri___---___0.16406___---___1280x960___---___ipcam-6--00014.mp4-0026.jpg
+hammerhead, hammerhead shark___---___0.76953___---___1280x960___---___bilde--2018-06-17_09-12-20--offset_177sec__9_ipcam-2--00537.mp4.jpg
+tiger shark, Galeocerdo cuvieri___---___0.16406___---___1280x960___---___bilde--2018-06-17_09-12-20--offset_177sec__9_ipcam-2--00537.mp4.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.38281___---___1280x960___---___bilde--2018-06-17_12-42-24--offset_163sec__10_ipcam-2--00558.mp4.jpg
+hammerhead, hammerhead shark___---___0.29297___---___1280x960___---___bilde--2018-06-17_12-42-24--offset_163sec__10_ipcam-2--00558.mp4.jpg
+hammerhead, hammerhead shark___---___0.83594___---___1280x960___---___bilde--2018-06-17_12-42-24--offset_65sec__6_ipcam-2--00558.mp4.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.92969___---___240x240___---___ipcam-6--00353.mp4_8364.jpg
+snorkel___---___0.98438___---___240x240___---___ipcam-6--00304.mp4_6618.jpg
+hammerhead, hammerhead shark___---___0.89062___---___1280x960___---___bilde--2018-06-17_06-42-17--offset_11sec__2_ipcam-2--00522.mp4.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.82422___---___240x240___---___ipcam-6--00271.mp4_5472.jpg
+goldfish, Carassius auratus___---___0.28125___---___240x240___---___ipcam-6--00350.mp4_11202.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.28125___---___240x240___---___ipcam-6--00350.mp4_11202.jpg
+coral reef___---___0.12500___---___240x240___---___ipcam-6--00350.mp4_11202.jpg
+sturgeon___---___0.59766___---___240x240___---___ipcam-6--00266.mp4_10176.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.34766___---___240x240___---___ipcam-6--00266.mp4_10176.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.68750___---___240x240___---___ipcam-6--00266.mp4_10164.jpg
+gar, garfish, garpike, billfish, Lepisosteus osseus___---___0.13672___---___240x240___---___ipcam-6--00266.mp4_10164.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.75781___---___240x240___---___ipcam-6--00261.mp4_390.jpg
+sturgeon___---___0.12500___---___240x240___---___ipcam-6--00261.mp4_390.jpg
+tiger shark, Galeocerdo cuvieri___---___0.41797___---___1280x960___---___bilde--2018-06-17_12-52-24--offset_265sec__7_ipcam-2--00559.mp4.jpg
+hammerhead, hammerhead shark___---___0.17578___---___1280x960___---___bilde--2018-06-17_12-52-24--offset_265sec__7_ipcam-2--00559.mp4.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.15234___---___1280x960___---___bilde--2018-06-17_12-52-24--offset_265sec__7_ipcam-2--00559.mp4.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.58203___---___240x240___---___ipcam-6--00271.mp4_5448.jpg
+barracouta, snoek___---___0.12500___---___240x240___---___ipcam-6--00271.mp4_5448.jpg
+sturgeon___---___0.11719___---___240x240___---___ipcam-6--00271.mp4_5448.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.43750___---___240x240___---___ipcam-6--00271.mp4_5490.jpg
+gar, garfish, garpike, billfish, Lepisosteus osseus___---___0.16016___---___240x240___---___ipcam-6--00271.mp4_5490.jpg
+barracouta, snoek___---___0.12891___---___240x240___---___ipcam-6--00271.mp4_5490.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.86719___---___240x240___---___ipcam-6--00261.mp4_420.jpg
+tiger shark, Galeocerdo cuvieri___---___0.56250___---___240x240___---___ipcam-6--00261.mp4_366.jpg
+great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias___---___0.28906___---___240x240___---___ipcam-6--00261.mp4_366.jpg
+coral reef___---___0.75781___---___1280x960___---___bilde--2018-06-17_12-52-24--offset_41sec__0_ipcam-2--00559.mp4.jpg
+sturgeon___---___0.75781___---___1280x960___---___bilde--2018-06-17_12-42-24--offset_46sec__2_ipcam-2--00558.mp4.jpg
+stingray___---___0.18750___---___1280x960___---___bilde--2018-06-17_08-42-19--offset_518sec__98_ipcam-2--00534.mp4.jpg
+hammerhead, hammerhead shark___---___0.15234___---___1280x960___---___bilde--2018-06-17_08-42-19--offset_518sec__98_ipcam-2--00534.mp4.jpg
+tiger shark, Galeocerdo cuvieri___---___0.11719___---___1280x960___---___bilde--2018-06-17_08-42-19--offset_518sec__98_ipcam-2--00534.mp4.jpg
+hammerhead, hammerhead shark___---___0.51562___---___1280x960___---___ipcam-6--00014.mp4-0024.jpg
+tiger shark, Galeocerdo cuvieri___---___0.36719___---___1280x960___---___ipcam-6--00014.mp4-0024.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.98438___---___240x240___---___ipcam-6--00261.mp4_426.jpg
+tiger shark, Galeocerdo cuvieri___---___0.29297___---___1280x960___---___ipcam-6--00014.mp4-0025.jpg
+stingray___---___0.22656___---___1280x960___---___ipcam-6--00014.mp4-0025.jpg
+hammerhead, hammerhead shark___---___0.19531___---___1280x960___---___ipcam-6--00014.mp4-0025.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.89062___---___240x240___---___ipcam-6--00280.mp4_14904.jpg
+hammerhead, hammerhead shark___---___0.52344___---___1280x960___---___bilde--2018-06-17_16-02-28--offset_189sec__6_ipcam-2--00578.mp4.jpg
+tiger shark, Galeocerdo cuvieri___---___0.21875___---___1280x960___---___bilde--2018-06-17_16-02-28--offset_189sec__6_ipcam-2--00578.mp4.jpg
+hammerhead, hammerhead shark___---___0.71875___---___1280x960___---___bilde--2018-06-17_11-02-22--offset_73sec__5_ipcam-2--00548.mp4.jpg
+tiger shark, Galeocerdo cuvieri___---___0.66797___---___240x240___---___ipcam-6--00261.mp4_372.jpg
+great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias___---___0.15234___---___240x240___---___ipcam-6--00261.mp4_372.jpg
+snorkel___---___0.98047___---___240x240___---___ipcam-6--00304.mp4_6576.jpg
+coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch___---___0.64844___---___240x240___---___ipcam-6--00261.mp4_378.jpg
+tiger shark, Galeocerdo cuvieri___---___0.17969___---___240x240___---___ipcam-6--00261.mp4_378.jpg
