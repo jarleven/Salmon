@@ -32,5 +32,5 @@ python3 ~/Salmon/EdgeTPU/classify_folder.py --model ~/EdgeTPU_Models/inception_v
 
 
 
-# mv $process_folder $pathname"/done_"${foldername/ready_/}
+mv $process_folder $pathname"/done_"${foldername/ready_/}
 
