@@ -10,8 +10,8 @@
 ENVIRONMENT="dev"
 DB_PATH="/data/db"
 
-function usage()
-{
+
+usage () {
     echo "if this was a real script you would see something useful here"
     echo ""
     echo "./simple_args_parsing.sh"
@@ -20,6 +20,15 @@ function usage()
     echo "\t--db-path=$DB_PATH"
     echo ""
 }
+
+
+if [ $# -eq 0 ]
+  then
+    echo "No arguments supplied"
+    usage
+    exit
+fi
+
 
 while [ "$1" != "" ]; do
     PARAM=`echo $1 | awk -F= '{print $1}'`
@@ -45,5 +54,5 @@ while [ "$1" != "" ]; do
 done
 
 
-echo "ENVIRONMENT is $ENVIRONMENT";
-echo "DB_PATH is $DB_PATH";
+echo "ENVIRONMENT is ["$ENVIRONMENT"]"
+echo "DB_PATH is     ["$DB_PATH"]"
