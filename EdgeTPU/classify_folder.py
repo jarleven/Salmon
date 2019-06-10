@@ -53,14 +53,18 @@ def main():
                         default=os.path.join(default_model_dir,default_model))
     parser.add_argument('--labels', help='label file path',
                         default=os.path.join(default_model_dir, default_labels))
-    parser.add_argument('--top_k', type=int, default=3,
+    parser.add_argument('--top_k', type=int, default=1,
                         help='number of classes with highest score to display')
     parser.add_argument('--threshold', type=float, default=0.1,
                         help='class score threshold')
-    parser.add_argument('--folder', help='Search folder path')
+    parser.add_argument('--folder', help='search folder path')
+    parser.add_argument('--logfile', help='classification data log')
+
 
     args = parser.parse_args()
 
+    file = open(args.logfile,"a+") 
+ 
     print("Loading %s with %s labels."%(args.model, args.labels))
     print("Running classification in [%s]."%(args.folder))
     engine = ClassificationEngine(args.model)
@@ -72,7 +76,7 @@ def main():
 
     for filename in os.listdir(args.folder):
         if filename.endswith(".jpg"):
-            print(os.path.join(args.folder, filename))
+            #print(os.path.join(args.folder, filename))
  
             start_time = time.monotonic()
             img = Image.open(os.path.join(args.folder, filename))
@@ -83,12 +87,21 @@ def main():
                   'FPS: %.2f fps' %(1.0/(end_time - last_time)),
             ]
             for index, score in results:
-              text_lines.append('score=%.2f: %s' % (score, labels[index]))
+              text_lines.append('score=%.4f' % (score))
+              text_lines.append('labels=%s' % (labels[index]))
+
+            if not results:
+              text_lines.append('score=%.4f' % (0))
+              text_lines.append('labels=%s' % ("Nothing found"))
+               
+            text_lines.append('file=%s' % (filename))
             print(' '.join(text_lines))
+            file.write('___---___'.join(text_lines) + '\n') 
             last_time = end_time
         else:
             continue
 
+    file.close() 
 
 if __name__ == '__main__':
     main()
