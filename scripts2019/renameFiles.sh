@@ -19,28 +19,34 @@ echo "Input folder ["$folder"]"
 echo ""
 
 
-for f in $folder*.mp4; do
-    echo "processing file["$f"]"
+for f in $(find $folder); do # Not recommended, will break on whitespace
+#for f in $folder*.mp4; do
+    echo "Found file["$f"]"
 
-    # Do some sanitycheck, only move files from 2018 without timestampwd filenames!
-    if [[ $f == *"/ipcam-"* ]]; then
+    if [[ $f == *".mp4" ]]; then
+      echo "file is mp4"    
+      # Do some sanitycheck, only move files from 2018 without timestampwd filenames!
+      if [[ $f == *"/ipcam-"* ]] || [[ $f == *"/capture-"* ]]; then
         
-      # Get the seconds since Epoch of the file modification. Then create a filemane from that timestamp. 
-      fdate=$(stat -c %Y $f)	# 2019-05-26 13:04:42.xxxxxx
-      filename=$(date -d@"$fdate" +renamed__%Y-%m-%d__%H-%M-%S.mp4)
+        # Get the seconds since Epoch of the file modification. Then create a filemane from that timestamp. 
+        fdate=$(stat -c %Y $f)	# 2019-05-26 13:04:42.xxxxxx
+        filename=$(date -d@"$fdate" +renamed__%Y-%m-%d__%H-%M-%S.mp4)
 
-      echo "Filename out is ["$filename"]"
-      fpath=$(dirname $f)
-      echo "Path out is ["$fpath"]"
-      fpath=$fpath"/"$filename
-      echo "Filepath out is ["$fpath"]"
+        echo "Filename out is ["$filename"]"
+        fpath=$(dirname $f)
+        echo "Path out is ["$fpath"]"
+        fpath=$fpath"/"$filename
+        echo "Filepath out is ["$fpath"]"
 
-      mv $f $fpath
+        details=$(ls --full-time $f)
 
-      echo "["$filename"]  <---  ["$f"]" >> $logfile
-    fi
-    echo ""
+        mv $f $fpath
 
+
+        echo "["$filename"]  <---  ["$f"] --- ["$details"]"  >> $logfile
+      fi
+      echo ""
+   fi
 
 done
 
