@@ -38,7 +38,7 @@ fi
 cd $folder
 
 # Loop ove the last x to y days
-for i in {2..30}
+for i in {1..30}
 do
   echo $i" day(s) ago"
 
