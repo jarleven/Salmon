@@ -5,6 +5,8 @@ cd /home/jarleven/Youtube
 TODAY=$(date +"%Y-%m-%d")
 TOMORROW=$(date -d "+1 day" +"%Y-%m-%d")
 
+# Example URL : http://api.sehavniva.no/tideapi.php?lat=61.902132&lon=5.984118&fromtime=2019-06-16T00%3A00&totime=2019-06-17T00%3A00&datatype=tab&refcode=msl&place=&file=&lang=nn&interval=10&dst=0&tzone=1&tide_request=locationdata
+
 URL="http://api.sehavniva.no/tideapi.php?lat=61.902132&lon=5.984118&fromtime="$TODAY"T00%3A00&totime="$TOMORROW"T00%3A00&datatype=tab&refcode=msl&place=&file=&lang=nn&interval=10&dst=0&tzone=1&tide_request=locationdata"
 
 wget $URL -O tides.xml
@@ -49,6 +51,7 @@ mv tmp.txt tides.txt
 
 sed -i '1s/^/  --- CLOCK DATA ---\n/' tides.txt
 
+echo "  --- TIDE DATA --- " >> tides.txt
 
 mv tides.txt dataOverlay.txt 
 echo "---"
