@@ -1,11 +1,37 @@
 #!/bin/bash
 
-cd /home/jarleven/laksenArcive/NVE-data/
+#cd /home/jarleven/laksenArcive/NVE-data/
 
-wget https://www2.nve.no/h/hd/plotreal/Q/0089.00001.000/doegndata.txt -O `date +"NVE-data__%Y-%m-%d__%H-%M-%S.txt"`
+#wget https://www2.nve.no/h/hd/plotreal/Q/0089.00001.000/doegndata.txt -O `date +"NVE-data__%Y-%m-%d__%H-%M-%S.txt"`
+
+#ls -1t NVE-data*.txt | head -1 |  xargs -I{} cp "{}" tmp.txt
+
+wget https://www2.nve.no/h/hd/plotreal/Q/0089.00001.000/ -O testing.txt
+iconv -t UTF-8 -f ISO-8859-1 testing.txt > foo_new.txt
+
+line=$(grep "Siste m" foo_new.txt)
+
+echo $line
+
+# <center>Siste måling, tid=17.06.2019 16:00, verdi= 18.869</center><br>
+
+flow=$(awk -F ">" '{print $2}' <<< "$line" | awk -F "<" '{print $1}' )
+
+echo $flow  > /home/jarleven/Youtube/flow.txt
+
+chown jarleven /home/jarleven/Youtube/flow.txt
 
 
-ls -1t NVE-data*.txt | head -1 |  xargs -I{} cp "{}" tmp.txt
+echo $flow
+
+
+
+#echo "Stasjon Hornindalsvatn "$PRINTDATE" : "$flow"m3\/s" > /home/jarleven/Youtube/flow.txt
+
+#chown jarleven /home/jarleven/Youtube/flow.txt
+
+
+exit
 
 
 printdate=0
