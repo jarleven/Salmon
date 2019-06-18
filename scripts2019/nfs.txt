@@ -1,0 +1,18 @@
+Server side
+
+sudo vi /etc/exports
+
+Add 
+/home/jarleven/laksenArcive/Archive 192.168.1.0/24(rw,sync,no_subtree_check)
+
+
+Client side
+
+sudo vi /etc/fstab
+
+After editing 
+
+192.168.1.231:/home/jarleven/laksenArcive/Archive /home/jarleven/LaksenNFS nfs auto,nofail,noatime,nolock,intr,tcp,actimeo=1800 0 0
+
+mount -a
+
