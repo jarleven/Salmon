@@ -40,20 +40,44 @@ sed -i 's/:/ /g' tides.txt
 
 #awk '{ print $3" " $6":"$7 }' tides.txt > tmp.txt
 
+
+touch tmp.txt
+
 #awk '{printf "%1s\n", $3}' tides.txt > tmp.txt
-awk '{printf("%15.1fcm %02d:%02d\n",$3,$6,$7)}' tides.txt > tmp.txt
-mv tmp.txt tides.txt
+
+# Modified for localtime
+#awk '{printf("%15.1fcm %02d:%02d\n",$3,$6,$7)}' tides.txt > tmp.txt
+#mv tmp.txt tides.txt
+
+while read line;
+do
+  waterlevel=$(awk '{printf("%15.1fcm",$3)}' <<< "$line")
+  
+  time=$(awk '{printf("%02d:%02d\n",$6,$7)}' <<< "$line")
+  localtime=$(date -d "$time today + 1 hour" +'%H:%M')
+
+  echo  "$waterlevel  $localtime"
+  echo  "$waterlevel  $localtime" >> tmp.txt
+
+done <tides.txt
+
+echo ""  >> tmp.txt
+echo ""  >> tmp.txt
+
 
 # -83.1cm 04:00
 #  58.0cm 10:08
 # -85.4cm 16:21
 #  59.6cm 22:30
 
-sed -i '1s/^/  --- CLOCK DATA ---\n/' tides.txt
+sed -i '1s/^/  --- CLOCK DATA ---\n/' tmp.txt
 
-echo "  --- TIDE DATA --- " >> tides.txt
 
-mv tides.txt dataOverlay.txt 
+# TODO : Make sure we have enough lines to print on !!!!
+
+# echo "  --- TIDE DATA --- " >> tides.txt
+
+mv tmp.txt dataOverlay.txt 
 echo "---"
 echo "---"
 cat dataOverlay.txt
