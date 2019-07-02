@@ -1,4 +1,3 @@
-# Salmon
 
 #### Glue to hold together the wild salmon project in Eidselva, Nordfjordeid, Norway
 
