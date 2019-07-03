@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Run with
+# jarleven@eidselva:~/Salmon/scripts2019$ ./moveArchive.sh /home/jarleven/laksenArcive/Live/
+
+
 # Move files grabbed to our archive folder
 
 # Files are on this format
@@ -38,7 +42,7 @@ fi
 cd $folder
 
 # Loop ove the last x to y days
-for i in {1..30}
+for i in {1..3}
 do
   echo $i" day(s) ago"
 

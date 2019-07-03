@@ -61,9 +61,9 @@ do
 
 done <tides.txt
 
-echo ""  >> tmp.txt
-echo ""  >> tmp.txt
-
+echo " " >> tmp.txt
+echo " " >> tmp.txt
+echo " " >> tmp.txt
 
 # -83.1cm 04:00
 #  58.0cm 10:08

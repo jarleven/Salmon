@@ -15,20 +15,18 @@ echo $line
 
 # <center>Siste måling, tid=17.06.2019 16:00, verdi= 18.869</center><br>
 
-flow=$(awk -F ">" '{print $2}' <<< "$line" | awk -F "<" '{print $1}' )
-
-echo $flow  > /home/jarleven/Youtube/flow.txt
-
-chown jarleven /home/jarleven/Youtube/flow.txt
-
+flow=$(awk -F ">" '{print $2}' <<< "$line" | awk -F "<" '{print $1}' | awk -F "= " '{print $2}')
 
 echo $flow
 
+echo "Vannføring : "$flow"m3/s"
+
+echo "         Vannføring : "$flow"m3\/s" > /home/jarleven/Youtube/flow.txt
 
 
 #echo "Stasjon Hornindalsvatn "$PRINTDATE" : "$flow"m3\/s" > /home/jarleven/Youtube/flow.txt
 
-#chown jarleven /home/jarleven/Youtube/flow.txt
+chown jarleven /home/jarleven/Youtube/flow.txt
 
 
 exit
