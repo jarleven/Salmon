@@ -52,7 +52,7 @@ while read line; do
    mystring+=$(printf '%s' "$offset")$'\n'
    mystring+=$(printf '%s' "(c) Jarl Even Englund")$'\n'
 
-    outfile="../tagged3/tagged_"$f
+    outfile="../tagged/tagged_"$f
     infile="done_"$folder"/"$f
 
     echo $outfile
