@@ -4,7 +4,9 @@
 
 cd /media/jarleven/e0f04099-72b6-44ed-949c-6f95287f9cae/foreground/
 
-
+# TODO
+#  Input parameter
+#  Output dir
 
 find . -name "*classification.txt" -exec cat {} \; > inference.txt
 
