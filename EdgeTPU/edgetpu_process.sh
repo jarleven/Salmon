@@ -19,6 +19,9 @@
 folder="$1""ready_*"
 
 scriptfolder=$(dirname "$0")
+
+echo ""
+echo ""
 echo $scriptfolder
 
 model=~/EdgeTPU_Models/inception_v1_224_quant_edgetpu.tflite
@@ -31,19 +34,24 @@ labels=~/EdgeTPU_Models/imagenet_labels.txt
 
 while true; do
 
-    process_folder=$(ls -t1 -d $folder | head -1)
+    process_folder=$(ls -t1 -d $folder 2>/dev/null | head -1)
 
     # Will process the oldest folder named ready_foo in the path passed to the script.
     # The folder will be renamed processed_foo when done
     # We are assuming that the previous layer "background subtration" will name folders new_foo and rename them to ready_foo when done writing all the JPGs
 
 
+
+
     if [ -z "$process_folder" ]
     then
-        echo "Nothing to do, exiting"
-        sleep 11
+        echo -n "Nothing to do, wait a bit  -  "
+        sleep 30
         continue
     fi
+
+    echo " Process folder [$process_folder]"
+
 
 
     pathname=$(dirname $process_folder)
@@ -64,7 +72,34 @@ while true; do
 
 
     # Rename the folder we processed
-    mv $process_folder $pathname"/done_"${foldername/ready_/}
+
+    outputfolder=${foldername/ready_/done_}
+    outputpath=$pathname"/"$outputfolder
+
+    echo "Process folder $process_folder "
+    echo "Outputfolder $outputpath"
+    echo "Pathname $pathname"
+    echo "Foldername $foldername"
+    echo "Moving like this : $process_folder"/" $pathname"/"$outputfolder"
+
+    sleep 2
+
+if [ -d "$outputpath" ]; then
+  # Take action if $DIR exists. #
+  echo "This folder have already been created  $outputpath    ..."
+  echo "Delete it !"
+  rm -rf $outputpath
+  sleep 2
+fi
+
+
+
+
+    mv $process_folder"/" $outputpath
+
+
+    sleep 2 
+
 
 done
 

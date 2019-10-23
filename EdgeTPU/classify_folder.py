@@ -21,6 +21,7 @@
 """A demo which runs object classification on a folder containing cropped jpg files."""
 import argparse
 import time
+from datetime import datetime
 import re
 import imp
 import os
@@ -67,6 +68,15 @@ def main():
  
     print("Loading %s with %s labels."%(args.model, args.labels))
     print("Running classification in [%s]."%(args.folder))
+
+    # datetime object containing current date and time
+    now = datetime.now()
+ 
+    print("now =", now)
+    # dd/mm/YY H:M:S
+    dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
+    print("date and time =", dt_string)
+
     engine = ClassificationEngine(args.model)
     labels = load_labels(args.labels)
 
@@ -95,7 +105,7 @@ def main():
               text_lines.append('labels=%s' % ("Nothing found"))
                
             text_lines.append('file=%s' % (filename))
-            print(' '.join(text_lines))
+            # print(' '.join(text_lines))   DEBUG OCT 2019
             file.write('___---___'.join(text_lines) + '\n') 
             last_time = end_time
         else:

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+mkdir ~/EdgeTPU_Models
+cd ~/EdgeTPU_Models
 
 
 wget https://dl.google.com/coral/canned_models/mobilenet_v2_1.0_224_inat_bird_quant_edgetpu.tflite \
