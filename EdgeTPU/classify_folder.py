@@ -70,27 +70,27 @@ def main():
     print("Running classification in [%s]."%(args.folder))
 
     # datetime object containing current date and time
-    now = datetime.now()
- 
-    print("now =", now)
-    # dd/mm/YY H:M:S
-    dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
-    print("date and time =", dt_string)
+    starttime = datetime.now()
+    print("start =", starttime)
 
     engine = ClassificationEngine(args.model)
     labels = load_labels(args.labels)
 
     last_time = time.monotonic()
- 
 
 
-    for filename in os.listdir(args.folder):
+    list = os.listdir(args.folder) # dir is your directory path
+    number_files = len(list)
+    print("The folder contain(s) : %d files" % number_files)
+
+    for filename in list:
+    #for filename in os.listdir(args.folder):
         if filename.endswith(".jpg"):
             #print(os.path.join(args.folder, filename))
  
             start_time = time.monotonic()
             img = Image.open(os.path.join(args.folder, filename))
-            results = engine.ClassifyWithImage(img, threshold=args.threshold, top_k=args.top_k)
+            results = engine.classify_with_image(img, threshold=args.threshold, top_k=args.top_k)
             end_time = time.monotonic()
             text_lines = [
                   'Inference: %.2f ms' %((end_time - start_time) * 1000),
@@ -105,13 +105,19 @@ def main():
               text_lines.append('labels=%s' % ("Nothing found"))
                
             text_lines.append('file=%s' % (filename))
-            # print(' '.join(text_lines))   DEBUG OCT 2019
+            # Uncomment for log of each jpg
+            #print(' '.join(text_lines))
             file.write('___---___'.join(text_lines) + '\n') 
             last_time = end_time
         else:
             continue
 
-    file.close() 
+    file.close()
+
+    # datetime object containing current date and time
+    endtime = datetime.now()
+    print("done  =", endtime)
+    print("   ---   ")
 
 if __name__ == '__main__':
     main()

@@ -53,10 +53,40 @@ while true; do
     echo " Process folder [$process_folder]"
 
 
+    pathname=$(dirname $process_folder)
+    foldername=$(basename $process_folder)
 
+    outputfolder=${foldername/ready_/readytmp_}
+    outputpath=$pathname"/"$outputfolder
+
+    echo "Process folder $process_folder "
+    echo "Outputfolder $outputpath"
+    echo "Pathname $pathname"
+    echo "Foldername $foldername"
+    echo "Moving like this : $process_folder"/" $pathname"/"$outputfolder"
+
+
+    echo "The proc folder " $process_folder
+    mv $process_folder"/" $outputpath
+
+    if [ $? -ne 0 ] ; then
+       echo "fatal error moving the folder, racecondition"
+       sleep 2
+       continue
+    else
+       echo "success moving $process_folder"
+    fi
+
+
+    sleep 2
+
+    process_folder=$outputpath
+
+    # Now the readytmp is used.
     pathname=$(dirname $process_folder)
     foldername=$(basename $process_folder)
     logfile=$process_folder"/logfile_classification.txt"
+
 
     touch $logfile
 
@@ -73,7 +103,7 @@ while true; do
 
     # Rename the folder we processed
 
-    outputfolder=${foldername/ready_/done_}
+    outputfolder=${foldername/readytmp_/done_}
     outputpath=$pathname"/"$outputfolder
 
     echo "Process folder $process_folder "
