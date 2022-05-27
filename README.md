@@ -14,7 +14,5 @@ https://www.youtube.com/channel/UCk5GDliDXHNr79xArEi5CBQ
 https://photos.app.goo.gl/ykHRwrBYrpg7k2Rf6
 
 
-### Classified images
-https://photos.app.goo.gl/ni9vWkZYPFRwofWP8B
 
 
