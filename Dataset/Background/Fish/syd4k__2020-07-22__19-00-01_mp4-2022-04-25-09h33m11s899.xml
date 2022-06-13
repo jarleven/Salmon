@@ -1,0 +1,26 @@
+<annotation>
+	<folder>imagesa</folder>
+	<filename>syd4k__2020-07-22__19-00-01_mp4-2022-04-25-09h33m11s899.png</filename>
+	<path>/imagesa/syd4k__2020-07-22__19-00-01_mp4-2022-04-25-09h33m11s899.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4096</width>
+		<height>2160</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>salmon</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2538</xmin>
+			<ymin>1086</ymin>
+			<xmax>4096</xmax>
+			<ymax>1584</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>FISK!</folder>
+	<filename>syd4k__2020-07-13__15-30-00.mp4_17210.jpg</filename>
+	<path>/home/arnt/Desktop/FISK!/syd4k__2020-07-13__15-30-00.mp4_17210.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4096</width>
+		<height>2160</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>salmon</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2370</xmin>
+			<ymin>1106</ymin>
+			<xmax>3799</xmax>
+			<ymax>1545</ymax>
+		</bndbox>
+	</object>
+</annotation>
