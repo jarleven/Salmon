@@ -1,0 +1,26 @@
+<annotation>
+	<folder>3</folder>
+	<filename>syd4k__2020-08-23__15-00-00__frame__10479.png</filename>
+	<path>/images/3/syd4k__2020-08-23__15-00-00__frame__10479.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4096</width>
+		<height>2160</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>salmon</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2174</xmin>
+			<ymin>1139</ymin>
+			<xmax>4065</xmax>
+			<ymax>1730</ymax>
+		</bndbox>
+	</object>
+</annotation>

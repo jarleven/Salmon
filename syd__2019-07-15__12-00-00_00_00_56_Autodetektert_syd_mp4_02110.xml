@@ -1,0 +1,26 @@
+<annotation>
+	<folder>JarlEven</folder>
+	<filename>syd__2019-07-15__12-00-00_00_00_56_Autodetektert_syd_mp4_02110.jpg</filename>
+	<path>/images/JarlEven/syd__2019-07-15__12-00-00_00_00_56_Autodetektert_syd_mp4_02110.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>960</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>salmon</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>396</xmin>
+			<ymin>534</ymin>
+			<xmax>1118</xmax>
+			<ymax>755</ymax>
+		</bndbox>
+	</object>
+</annotation>
