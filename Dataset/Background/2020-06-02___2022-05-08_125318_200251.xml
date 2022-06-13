@@ -1,0 +1,14 @@
+<annotation verified="yes">
+	<folder>bakgrunn</folder>
+	<filename>2020-06-02___2022-05-08_125318_200251.jpg</filename>
+	<path>C:\tmp\Annoter\bakgrunn\2020-06-02___2022-05-08_125318_200251.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4000</width>
+		<height>3000</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>

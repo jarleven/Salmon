@@ -1,0 +1,14 @@
+<annotation verified="yes">
+	<folder>images</folder>
+	<filename>2022-05-01_123137_201566.jpg</filename>
+	<path>/images/2022-05-01_123137_201566.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>
