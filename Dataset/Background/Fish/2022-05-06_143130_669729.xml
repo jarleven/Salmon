@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Annoter</folder>
+	<filename>2022-05-06_143130_669729.jpg</filename>
+	<path>C:\tmp\Annoter\2022-05-06_143130_669729.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>676</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>salmon</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>453</xmin>
+			<ymin>236</ymin>
+			<xmax>1280</xmax>
+			<ymax>555</ymax>
+		</bndbox>
+	</object>
+</annotation>
