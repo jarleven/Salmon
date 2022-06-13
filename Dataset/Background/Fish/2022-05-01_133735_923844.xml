@@ -1,0 +1,26 @@
+<annotation>
+	<folder>fisk</folder>
+	<filename>2022-05-01_133735_923844.jpg</filename>
+	<path>C:\tmp\fisk\2022-05-01_133735_923844.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4096</width>
+		<height>2160</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>salmon</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1104</xmin>
+			<ymin>1189</ymin>
+			<xmax>3365</xmax>
+			<ymax>1920</ymax>
+		</bndbox>
+	</object>
+</annotation>

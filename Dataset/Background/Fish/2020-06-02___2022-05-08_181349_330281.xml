@@ -1,0 +1,26 @@
+<annotation>
+	<folder>JarlEven</folder>
+	<filename>2020-06-02___2022-05-08_181349_330281.jpg</filename>
+	<path>/home/jarleven/fiskAI/ferdige/heilFisk/JarlEven/2020-06-02___2022-05-08_181349_330281.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4000</width>
+		<height>3000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>salmon</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>777</xmin>
+			<ymin>1336</ymin>
+			<xmax>3230</xmax>
+			<ymax>2123</ymax>
+		</bndbox>
+	</object>
+</annotation>

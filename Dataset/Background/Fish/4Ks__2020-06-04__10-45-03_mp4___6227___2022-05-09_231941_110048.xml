@@ -1,0 +1,26 @@
+<annotation>
+	<folder>New folder</folder>
+	<filename>4Ks__2020-06-04__10-45-03_mp4___6227___2022-05-09_231941_110048.jpg</filename>
+	<path>C:\tmp\New folder\4Ks__2020-06-04__10-45-03_mp4___6227___2022-05-09_231941_110048.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4000</width>
+		<height>3000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>salmon</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1146</xmin>
+			<ymin>1076</ymin>
+			<xmax>3507</xmax>
+			<ymax>2042</ymax>
+		</bndbox>
+	</object>
+</annotation>
