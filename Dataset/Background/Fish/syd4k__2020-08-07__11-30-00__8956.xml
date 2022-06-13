@@ -1,0 +1,26 @@
+<annotation>
+	<folder>TODO</folder>
+	<filename>syd4k__2020-08-07__11-30-00__8956.jpg</filename>
+	<path>/home/jarleven/fiskAI/TODO/syd4k__2020-08-07__11-30-00__8956.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4096</width>
+		<height>2160</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>salmon</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>755</xmin>
+			<ymin>448</ymin>
+			<xmax>2777</xmax>
+			<ymax>1469</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>ikke anotert</folder>
+	<filename>syd4k__2020-07-27__17-00-01.mp4-2022-04-28-14h41m31s791.png</filename>
+	<path>/home/potet/ikke anotert/syd4k__2020-07-27__17-00-01.mp4-2022-04-28-14h41m31s791.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4096</width>
+		<height>2160</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>salmon</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2128</xmin>
+			<ymin>524</ymin>
+			<xmax>3992</xmax>
+			<ymax>1308</ymax>
+		</bndbox>
+	</object>
+</annotation>

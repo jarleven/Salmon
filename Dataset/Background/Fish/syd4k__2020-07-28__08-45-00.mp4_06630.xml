@@ -1,0 +1,26 @@
+<annotation>
+	<folder>bilder</folder>
+	<filename>syd4k__2020-07-28__08-45-00.mp4_06630.jpg</filename>
+	<path>/home/scp092/fiskeopptak/bilder/syd4k__2020-07-28__08-45-00.mp4_06630.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2048</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>salmon</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>437</xmin>
+			<ymin>548</ymin>
+			<xmax>1987</xmax>
+			<ymax>1055</ymax>
+		</bndbox>
+	</object>
+</annotation>
