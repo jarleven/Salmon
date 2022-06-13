@@ -1,0 +1,26 @@
+<annotation>
+	<folder>JarlEven</folder>
+	<filename>bilde--2018-06-21_12-10-52--offset_114sec__12_ipcam-1--00301_mp4.jpg</filename>
+	<path>/images/JarlEven/bilde--2018-06-21_12-10-52--offset_114sec__12_ipcam-1--00301_mp4.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>960</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>salmon</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>110</xmin>
+			<ymin>412</ymin>
+			<xmax>558</xmax>
+			<ymax>672</ymax>
+		</bndbox>
+	</object>
+</annotation>

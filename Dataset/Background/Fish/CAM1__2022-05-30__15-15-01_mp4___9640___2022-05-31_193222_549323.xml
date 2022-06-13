@@ -1,0 +1,26 @@
+<annotation>
+	<folder>TODO</folder>
+	<filename>CAM1__2022-05-30__15-15-01_mp4___9640___2022-05-31_193222_549323.jpg</filename>
+	<path>/home/jarleven/fiskAI/TODO/CAM1__2022-05-30__15-15-01_mp4___9640___2022-05-31_193222_549323.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>salmon</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>527</xmin>
+			<ymin>335</ymin>
+			<xmax>1593</xmax>
+			<ymax>686</ymax>
+		</bndbox>
+	</object>
+</annotation>

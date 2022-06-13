@@ -1,0 +1,26 @@
+<annotation>
+	<folder>bilder</folder>
+	<filename>nord__2020-07-28__10-45-00.mp4_11605.jpg</filename>
+	<path>/home/scp092/fiskeopptak/bilder/nord__2020-07-28__10-45-00.mp4_11605.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1088</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>salmon</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>717</xmin>
+			<ymin>515</ymin>
+			<xmax>1276</xmax>
+			<ymax>713</ymax>
+		</bndbox>
+	</object>
+</annotation>

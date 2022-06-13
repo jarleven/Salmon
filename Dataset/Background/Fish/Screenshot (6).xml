@@ -1,0 +1,26 @@
+<annotation>
+	<folder>TODO</folder>
+	<filename>Screenshot (6).png</filename>
+	<path>/home/jarleven/fiskAI/TODO/Screenshot (6).png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2655</width>
+		<height>878</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>salmon</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>687</xmin>
+			<ymin>311</ymin>
+			<xmax>1584</xmax>
+			<ymax>670</ymax>
+		</bndbox>
+	</object>
+</annotation>
