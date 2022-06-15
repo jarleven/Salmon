@@ -8,8 +8,9 @@ In shot it is multiple cameras in the Eidselva river tracking wild salmon with A
 ### Current release is of the dataset is version v3
 [Download dataset v3](https://github.com/jarleven/Salmon/archive/refs/tags/v3.zip "download")
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jarleven/Salmon/blob/master/Colab/YOLOv5.ipynb)
+
 TODO: Roboflow link
-TODO: Colab link
 
 
 ### YouTube channel
