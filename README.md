@@ -10,7 +10,7 @@ In shot it is multiple cameras in the Eidselva river tracking wild salmon with A
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jarleven/Salmon/blob/master/Colab/YOLOv5.ipynb)
 
-[Roboflow](https://app.roboflow.com/atlantic-salmon-salmo-salar/atlantic-salmon--salmo-salar-zd85r/){:target="_blank" rel="noopener"}
+[Roboflow](https://app.roboflow.com/atlantic-salmon-salmo-salar/atlantic-salmon--salmo-salar-zd85r/)
 
 
 
