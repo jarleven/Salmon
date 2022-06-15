@@ -15,7 +15,8 @@ In shot it is multiple cameras in the Eidselva river tracking wild salmon with A
 
 
 ### YouTube channel
-https://www.youtube.com/channel/UCk5GDliDXHNr79xArEi5CBQ
+[![Watch the video](https://img.youtube.com/vi/nTQUwghvy5Q/default.jpg)](https://www.youtube.com/channel/UCk5GDliDXHNr79xArEi5CBQ)
+
 
 
 ### Google Photoalbum
