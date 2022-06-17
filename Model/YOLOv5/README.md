@@ -1,6 +1,6 @@
 # K80 GPU
 
-# The NVIDIA datacenter drivers:
+#### The NVIDIA datacenter drivers:
 ```bash
 wget https://us.download.nvidia.com/tesla/460.32.03/NVIDIA-Linux-x86_64-460.32.03.run
 wget https://us.download.nvidia.com/tesla/460.106.00/NVIDIA-Linux-x86_64-460.106.00.run
@@ -9,7 +9,7 @@ wget https://us.download.nvidia.com/tesla/460.106.00/NVIDIA-Linux-x86_64-460.106
 sudo sudo docker run --ipc=host -it  --gpus all  nvcr.io/nvidia/tensorrt:21.02-py3
 ```
 
-# Inside Docker
+#### Inside Docker
 ```bash
 apt-update
 apt-get install ffmpeg libsm6 libxext6  -y
