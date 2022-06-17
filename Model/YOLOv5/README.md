@@ -9,6 +9,13 @@ wget https://us.download.nvidia.com/tesla/460.106.00/NVIDIA-Linux-x86_64-460.106
 sudo sudo docker run --ipc=host -it  --gpus all  nvcr.io/nvidia/tensorrt:21.02-py3
 ```
 
+#### Run the container
+```bash
+
+sudo docker run --ipc=host -it  --gpus all  nvcr.io/nvidia/tensorrt:21.02-py3
+
+```
+
 #### Inside Docker
 ```bash
 
