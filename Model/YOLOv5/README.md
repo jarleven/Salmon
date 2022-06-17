@@ -12,7 +12,7 @@ sudo sudo docker run --ipc=host -it  --gpus all  nvcr.io/nvidia/tensorrt:21.02-p
 #### Run the container
 ```bash
 
-sudo docker run --ipc=host -it  --gpus all  nvcr.io/nvidia/tensorrt:21.02-py3
+sudo docker run --ipc=host  --ulimit memlock=-1 --ulimit stack=67108864 -it  --gpus all  nvcr.io/nvidia/tensorrt:21.02-py3
 
 ```
 
