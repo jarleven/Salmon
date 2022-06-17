@@ -27,8 +27,7 @@ pip install -r requirements.txt
 
 apt update
 DEBIAN_FRONTEND=noninteractive TZ=Europe/Oslo apt-get -y install tzdata
-apt install -y build-essential libc6 libc6-dev unzip wget libnuma1 libnuma-dev
-# yasm cmake libtool
+apt install -y build-essential yasm cmake libtool libc6 libc6-dev unzip wget libnuma1 libnuma-dev
 
 git config --global http.sslverify false
 git clone https://git.videolan.org/git/ffmpeg/nv-codec-headers.git
