@@ -43,5 +43,6 @@ cd ffmpeg
 
 make -j 8
 make install
+cd -
 
 ```
