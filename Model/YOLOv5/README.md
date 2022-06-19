@@ -2,8 +2,12 @@
 
 #### The NVIDIA datacenter drivers:
 ```bash
+
+sudo apt install -y build-essential
+
 wget https://us.download.nvidia.com/tesla/460.32.03/NVIDIA-Linux-x86_64-460.32.03.run
 wget https://us.download.nvidia.com/tesla/460.106.00/NVIDIA-Linux-x86_64-460.106.00.run
+chmod +x NVIDIA-Linux-x86_64-460.106.00.run
 sudo ./NVIDIA-Linux-x86_64-460.106.00.run --no-x-check
 
 
