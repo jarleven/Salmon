@@ -4,6 +4,8 @@
 ```bash
 wget https://us.download.nvidia.com/tesla/460.32.03/NVIDIA-Linux-x86_64-460.32.03.run
 wget https://us.download.nvidia.com/tesla/460.106.00/NVIDIA-Linux-x86_64-460.106.00.run
+sudo ./NVIDIA-Linux-x86_64-460.106.00.run --no-x-check
+
 
 # https://docs.nvidia.com/deeplearning/frameworks/support-matrix/index.html
 sudo sudo docker run --ipc=host -it  --gpus all  nvcr.io/nvidia/tensorrt:21.02-py3
