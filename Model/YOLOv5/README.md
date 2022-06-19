@@ -62,6 +62,18 @@ git clone https://github.com/ultralytics/yolov5
 cd yolov5
 pip install -r requirements.txt
 
+
+
+wget https://github.com/jarleven/Salmon/raw/master/Model/YOLOv5/fiskAI_v3.pt
+scp jarleven@192.168.1.199:/RAID/storage/2022/2022-06-15/CAM2__2022-06-15__16-30-01.mp4 .
+
+python export.py --device 0 --weights fiskAI_v3.pt --include engine
+
+python detect.py \
+	--weights fiskAI_v3.engine \
+	--conf-thres 0.4 \
+	--source CAM2__2022-06-15__16-30-01.mp4
+
 ```
 
 # FFMPEG
