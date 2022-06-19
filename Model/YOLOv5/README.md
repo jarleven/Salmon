@@ -54,7 +54,7 @@ sudo docker run --ipc=host  --ulimit memlock=-1 --ulimit stack=67108864 -it  --g
 #### Inside Docker
 ```bash
 
-apt-update
+apt update
 #apt-get install ffmpeg libsm6 libxext6  -y
 python -m pip install --upgrade pip
 
