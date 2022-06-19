@@ -11,6 +11,35 @@ chmod +x NVIDIA-Linux-x86_64-460.106.00.run
 sudo ./NVIDIA-Linux-x86_64-460.106.00.run --no-x-check
 
 
+
+sudo apt update
+sudo apt upgrade -y
+sudo apt install -y curl vim git
+
+curl https://get.docker.com | sh && sudo systemctl --now enable docker
+
+# Test Docker
+sudo docker run hello-world
+
+# Add the NVIDIA Toolkit to the APT sources list
+distribution=$(. /etc/os-release;echo $ID$VERSION_ID) \
+      && curl -s -L https://nvidia.github.io/libnvidia-container/gpgkey | sudo apt-key add - \
+      && curl -s -L https://nvidia.github.io/libnvidia-container/$distribution/libnvidia-container.list | sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
+      
+sudo apt update
+
+sudo apt install -y nvidia-docker2
+sudo systemctl restart docker
+
+# Test the NVIDIA Container Toolkit
+sudo docker run --rm --gpus all nvidia/cuda:11.0-base nvidia-smi
+
+
+
+
+
+
+
 # https://docs.nvidia.com/deeplearning/frameworks/support-matrix/index.html
 sudo sudo docker run --ipc=host -it  --gpus all  nvcr.io/nvidia/tensorrt:21.02-py3
 ```
