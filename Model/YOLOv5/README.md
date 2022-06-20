@@ -54,6 +54,17 @@ sudo docker run --ipc=host  --ulimit memlock=-1 --ulimit stack=67108864 -it  --g
 #### Inside Docker
 ```bash
 
+wget https://raw.githubusercontent.com/jarleven/Salmon/master/Model/YOLOv5/installFFMPEG.sh
+wget https://raw.githubusercontent.com/jarleven/Salmon/master/Model/YOLOv5/installYOLOv5.sh
+
+chmod +x installFFMPEG.sh
+chmod +x installYOLOv5.sh
+
+./installFFMPEG.sh && ./installYOLOv5.sh
+
+
+
+
 apt update
 #apt-get install ffmpeg libsm6 libxext6  -y
 python -m pip install --upgrade pip
