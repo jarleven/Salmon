@@ -62,7 +62,10 @@ chmod +x installYOLOv5.sh
 
 ./installFFMPEG.sh && ./installYOLOv5.sh
 
+```
 
+#### YOLOv5
+```bash
 
 
 apt update
