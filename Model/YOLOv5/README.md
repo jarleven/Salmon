@@ -78,7 +78,7 @@ python detect.py \
 	--weights fiskAI_v3.engine \
 	--conf-thres 0.4 \
 	--save-crop \
-	--project /storage +
+	--project /storage \
 	--source /storage/2022-06-18
 	
 
