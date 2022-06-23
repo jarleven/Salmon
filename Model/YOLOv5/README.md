@@ -57,10 +57,31 @@ sudo docker run --ipc=host  --ulimit memlock=-1 --ulimit stack=67108864 -it  --g
 wget https://raw.githubusercontent.com/jarleven/Salmon/master/Model/YOLOv5/installFFMPEG.sh
 wget https://raw.githubusercontent.com/jarleven/Salmon/master/Model/YOLOv5/installYOLOv5.sh
 
+wget https://raw.githubusercontent.com/jarleven/Salmon/master/Model/YOLOv5/detect.py -O detect.py
+wget https://raw.githubusercontent.com/jarleven/Salmon/master/Model/YOLOv5/dataloaders.py -O utils/dataloaders.py
+wget https://github.com/jarleven/Salmon/raw/master/Model/YOLOv5/fiskAI_v3.pt
+
+
 chmod +x installFFMPEG.sh
 chmod +x installYOLOv5.sh
 
 ./installFFMPEG.sh && ./installYOLOv5.sh
+
+# TODO - This is dependent on GPU and what Container you are running inside
+pip install nvidia-pyindex
+pip install nvidia-tensorrt
+
+python export.py --device 0 --weights fiskAI_v3.pt --include engine
+
+
+python detect.py \
+	--weights fiskAI_v3.engine \
+	--conf-thres 0.4 \
+	--save-crop \
+	--project /storage +
+	--source /storage/2022-06-18
+	
+
 
 ```
 
