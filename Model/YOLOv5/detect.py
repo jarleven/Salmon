@@ -28,6 +28,7 @@ import argparse
 import os
 import sys
 from pathlib import Path
+import datetime
 
 import torch
 import torch.backends.cudnn as cudnn
@@ -107,6 +108,18 @@ def run(
     # Run inference
     model.warmup(imgsz=(1 if pt else bs, 3, *imgsz))  # warmup
     dt, seen = [0.0, 0.0, 0.0], 0
+
+    logfile = open("logfile.txt",'w')
+    print("Log started:", file=logfile) # Python 3.x
+    
+    starttime = datetime.datetime.now()
+    print("Starttime %s" % (starttime.strftime("%Y.%m.%d %H:%M:%S")), file=logfile)
+ 
+    print("Source [%s]" % source , file=logfile) # Python 3.x  
+
+
+    #print("Inference on %s" % path)
+
     for path, im, im0s, vid_cap, s in dataset:
         t1 = time_sync()
         im = torch.from_numpy(im).to(device)
@@ -130,6 +143,8 @@ def run(
         # Second-stage classifier (optional)
         # pred = utils.general.apply_classifier(pred, classifier_model, im, im0s)
 
+        #print("Inference on %s" % path)
+
         # Process predictions
         for i, det in enumerate(pred):  # per image
             seen += 1
@@ -146,6 +161,10 @@ def run(
             gn = torch.tensor(im0.shape)[[1, 0, 1, 0]]  # normalization gain whwh
             imc = im0.copy() if save_crop else im0  # for save_crop
             annotator = Annotator(im0, line_width=line_thickness, example=str(names))
+
+
+            large = False
+
             if len(det):
                 # Rescale boxes from img_size to im0 size
                 det[:, :4] = scale_coords(im.shape[2:], det[:, :4], im0.shape).round()
@@ -166,10 +185,45 @@ def run(
                     if save_img or save_crop or view_img:  # Add bbox to image
                         c = int(cls)  # integer class
                         label = None if hide_labels else (names[c] if hide_conf else f'{names[c]} {conf:.2f}')
+                        label =  f'salmon {conf:.2f}'
                         annotator.box_label(xyxy, label, color=colors(c, True))
-                    if save_crop:
-                        save_one_box(xyxy, imc, file=save_dir / 'crops' / names[c] / f'{p.stem}.jpg', BGR=True)
+                        if save_crop:
+                            save_one_box(xyxy, imc, file=save_dir / 'crops' / names[c] / f'{p.stem}.jpg', BGR=True)
+                        height, width, channels = imc.shape
 
+                        x1 = int(xyxy[0].item())
+                        y1 = int(xyxy[1].item())
+                        x2 = int(xyxy[2].item())
+                        y2 = int(xyxy[3].item())
+  
+                        w = x2 - x1
+                        h = y2 - y1
+
+                        border=False
+                        a=0
+                        b=0
+                        c=0
+                        d=0
+                        if (y1 > height/10): 
+                            a = 1
+                        if (y2 < (height-height/10)):
+                            b=1
+                        if (x1 > width/10):
+                            c=1
+                        if (x2 < (width-width/10)):
+                            d=1
+
+                        if (a+b+c+d == 4):
+                            border=True
+                        rsize = int(100 * ((w*h) / (width*height)))
+                        if rsize > 16 and border:
+                            large=True
+                
+
+
+
+
+            date_time=datetime.datetime.now().strftime("%Y-%m-%d_%H%M%S_%f")
             # Stream results
             im0 = annotator.result()
             if view_img:
@@ -177,26 +231,38 @@ def run(
                 cv2.waitKey(1)  # 1 millisecond
 
             # Save results (image with detections)
-            if save_img:
-                if dataset.mode == 'image':
-                    cv2.imwrite(save_path, im0)
-                else:  # 'video' or 'stream'
-                    if vid_path[i] != save_path:  # new video
-                        vid_path[i] = save_path
-                        if isinstance(vid_writer[i], cv2.VideoWriter):
-                            vid_writer[i].release()  # release previous video writer
-                        if vid_cap:  # video
-                            fps = vid_cap.get(cv2.CAP_PROP_FPS)
-                            w = int(vid_cap.get(cv2.CAP_PROP_FRAME_WIDTH))
-                            h = int(vid_cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
-                        else:  # stream
-                            fps, w, h = 30, im0.shape[1], im0.shape[0]
-                        save_path = str(Path(save_path).with_suffix('.mp4'))  # force *.mp4 suffix on results videos
-                        vid_writer[i] = cv2.VideoWriter(save_path, cv2.VideoWriter_fourcc(*'mp4v'), fps, (w, h))
-                    vid_writer[i].write(im0)
+            if len(det):
+                
+                #frompathlib import Path    
+                savename= (Path(source).name).replace(".", "_")
+
+
+                savename= (Path(path).name).replace(".", "_")
+                
+
+                #print(savename)
+                #print(source)
+                #print(str(p))
+                prframe=str(frame)
+                dologging=False
+                if large:
+                    #cv2.imwrite("/model/full/"+savename+"___"+prframe+"___"+date_time+".jpg", imc)
+                    #cv2.imwrite("/model/full/"+savename+"___"+prframe+"___"+date_time+"_.jpg", im0)
+                    cv2.imwrite("/storage/full/"+savename+"___"+prframe+".jpg", imc)
+                    cv2.imwrite("/storage/full/"+savename+"___"+prframe+"_.jpg", im0)
+                    dologging=True
+
+                #else:
+                    
+                    #cv2.imwrite("/model/small/"+savename+"___"+prframe+"___"+date_time+".jpg", imc)
+                    #cv2.imwrite("/model/small/"+savename+"___"+prframe+"___"+date_time+"_.jpg", im0)
+                if dologging:
+                    print("x1:%4d,y1:%4d   x2:%4d, y2:%4d    Box w %3d, h %3d    Img w %4d, h %4d    %d %d %d %d    Box relative size %2d    Savename : [%s]   Frame : %5d" % (x1, y1, x2, y2, w, h, height, width, a,b,c,d, rsize, savename, frame))
+                    print("x1:%4d,y1:%4d   x2:%4d, y2:%4d    Box w %3d, h %3d    Img w %4d, h %4d    %d %d %d %d    Box relative size %2d    Savename : [%s]   Frame : %5d" % (x1, y1, x2, y2, w, h, height, width, a,b,c,d, rsize, savename, frame), file=logfile)
 
         # Print time (inference-only)
-        LOGGER.info(f'{s}Done. ({t3 - t2:.3f}s)')
+        #LOGGER.info(f'{s}Done. ({t3 - t2:.3f}s)')
+        #print(date_time)
 
     # Print results
     t = tuple(x / seen * 1E3 for x in dt)  # speeds per image
@@ -206,6 +272,13 @@ def run(
         LOGGER.info(f"Results saved to {colorstr('bold', save_dir)}{s}")
     if update:
         strip_optimizer(weights)  # update model (to fix SourceChangeWarning)
+
+    stoptime = datetime.datetime.now()
+    print("Stoptime : %s" % (stoptime.strftime("%Y.%m.%d %H:%M:%S")), file=logfile)
+    print("Processtime : %s" %(str(stoptime-starttime)), file=logfile)
+
+    print("Log closed", file=logfile)
+    logfile.close()
 
 
 def parse_opt():
