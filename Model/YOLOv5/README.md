@@ -59,7 +59,7 @@ wget https://raw.githubusercontent.com/jarleven/Salmon/master/Model/YOLOv5/insta
 
 wget https://raw.githubusercontent.com/jarleven/Salmon/master/Model/YOLOv5/detect.py -O detect.py
 wget https://raw.githubusercontent.com/jarleven/Salmon/master/Model/YOLOv5/dataloaders.py -O utils/dataloaders.py
-wget https://github.com/jarleven/Salmon/raw/master/Model/YOLOv5/fiskAI_v3.pt
+wget https://github.com/jarleven/Salmon/raw/master/Model/YOLOv5/fiskAI_v4.pt
 
 
 chmod +x installFFMPEG.sh
@@ -71,17 +71,16 @@ chmod +x installYOLOv5.sh
 pip install nvidia-pyindex
 pip install nvidia-tensorrt
 
-python export.py --device 0 --weights fiskAI_v3.pt --include engine
+python export.py --device 0 --weights fiskAI_v4.pt --include engine
 
 
 python detect.py \
-	--weights fiskAI_v3.engine \
+	--weights fiskAI_v4.engine \
 	--conf-thres 0.4 \
 	--save-crop \
 	--project /storage \
 	--source /storage/2022-06-18
 	
-
 
 ```
 
