@@ -1,0 +1,26 @@
+<annotation>
+	<folder>2019-07-</folder>
+	<filename>syd__2019-07-19__10-45-01_mp4___8226.jpg</filename>
+	<path>C:\FiskAI\NewDataset\2019-07-\syd__2019-07-19__10-45-01_mp4___8226.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>960</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>salmon</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>236</xmin>
+			<ymin>233</ymin>
+			<xmax>786</xmax>
+			<ymax>513</ymax>
+		</bndbox>
+	</object>
+</annotation>
