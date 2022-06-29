@@ -1,0 +1,26 @@
+<annotation>
+	<folder>2022-06-24</folder>
+	<filename>CAM1__2022-06-24__10-45-00_mp4___618.jpg</filename>
+	<path>C:\FiskAI\NewDataset\2022-06-24\CAM1__2022-06-24__10-45-00_mp4___618.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>salmon</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>671</xmin>
+			<ymin>269</ymin>
+			<xmax>1735</xmax>
+			<ymax>607</ymax>
+		</bndbox>
+	</object>
+</annotation>
