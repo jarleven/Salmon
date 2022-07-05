@@ -1,17 +1,20 @@
 #!/bin/bash
 
-sudo apt install -y build-essential
 
-wget https://us.download.nvidia.com/tesla/460.32.03/NVIDIA-Linux-x86_64-460.32.03.run
-wget https://us.download.nvidia.com/tesla/460.106.00/NVIDIA-Linux-x86_64-460.106.00.run
-chmod +x NVIDIA-Linux-x86_64-460.106.00.run
-sudo ./NVIDIA-Linux-x86_64-460.106.00.run --no-x-check
+#wget https://us.download.nvidia.com/tesla/460.32.03/NVIDIA-Linux-x86_64-460.32.03.run
+#wget https://us.download.nvidia.com/tesla/460.106.00/NVIDIA-Linux-x86_64-460.106.00.run
+#chmod +x NVIDIA-Linux-x86_64-460.106.00.run
+#sudo ./NVIDIA-Linux-x86_64-460.106.00.run --no-x-check
 
 
 
 sudo apt update
 sudo apt upgrade -y
-sudo apt install -y curl vim git
+sudo apt install -y curl vim git screen sshfs
+sudo apt install -y build-essential
+
+sudo mkdir /mnt/storage
+sudo sshfs -o allow_other jarleven@192.168.1.199:/RAID/storage/2022/ /mnt/storage
 
 curl https://get.docker.com | sh && sudo systemctl --now enable docker
 
