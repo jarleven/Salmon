@@ -36,8 +36,8 @@ sudo docker run --rm --gpus all nvidia/cuda:11.0-base nvidia-smi
 
 # ####
 # NVIDIA Tesla K80 / Works with YOLOv5 ( 2022 July 5th )
-# On Ubuntu 20.04
-# NVIDIA-SMI 460.106.00   Driver Version: 460.106.00   CUDA Version: 11.2
+# On Ubuntu 20.04.4 LTS \n \l
+# NVIDIA-SMI 470.129.06   Driver Version: 470.129.06   CUDA Version: 11.4
 # sudo docker run --gpus all -it -v /mnt/storage:/storage nvidia/cuda:10.2-cudnn7-devel-ubuntu18.04
 #
 
