@@ -33,3 +33,11 @@ sudo systemctl restart docker
 
 # Test the NVIDIA Container Toolkit
 sudo docker run --rm --gpus all nvidia/cuda:11.0-base nvidia-smi
+
+# ####
+# NVIDIA Tesla K80 / Works with YOLOv5 ( 2022 July 5th )
+# On Ubuntu 20.04
+# NVIDIA-SMI 460.106.00   Driver Version: 460.106.00   CUDA Version: 11.2
+# sudo docker run --gpus all -it -v /mnt/storage:/storage nvidia/cuda:10.2-cudnn7-devel-ubuntu18.04
+#
+
