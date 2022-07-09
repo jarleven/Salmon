@@ -1,0 +1,26 @@
+<annotation>
+	<folder>cleanup</folder>
+	<filename>CAM2__2022-06-29__00-45-01_mp4___12942.jpg</filename>
+	<path>D:\cleanup\CAM2__2022-06-29__00-45-01_mp4___12942.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>salmon</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>296</xmin>
+			<ymin>525</ymin>
+			<xmax>1360</xmax>
+			<ymax>939</ymax>
+		</bndbox>
+	</object>
+</annotation>

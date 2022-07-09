@@ -1,12 +1,19 @@
 # import required module
 from pathlib import Path
+#from pathlib import PureWindowsPath
+
 import os.path
 
  
 # get the path/directory
 #folder_dir = 'D:\Git\Salmon\Dataset\Autodetect\'
-folder_dir = Path('D:\\Git\\Salmon\\Dataset\\Autodetect\\')
+#folder_dir = Path('D:\\Git\\Salmon\\Dataset\\Autodetect\\')
+
+folder_dir = Path(r'D:\tmp\full\2022-06-29')
  
+print(folder_dir)
+exit
+
 # iterate over files in
 # that directory
 xmls = Path(folder_dir).glob('*.xml')

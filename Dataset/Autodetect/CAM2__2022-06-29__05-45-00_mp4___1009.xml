@@ -1,0 +1,26 @@
+<annotation>
+    <folder>2022-06-29</folder>
+    <filename>CAM2__2022-06-29__05-45-00_mp4___1009.jpg</filename>
+    <path>/mnt/storage/Exported/2022-06-29/CAM2__2022-06-29__05-45-00_mp4___1009.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1920</width>
+        <height>1080</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>salmon</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>652</xmin>
+            <ymin>487</ymin>
+            <xmax>1519</xmax>
+            <ymax>952</ymax>
+        </bndbox>
+    </object>
+</annotation>
