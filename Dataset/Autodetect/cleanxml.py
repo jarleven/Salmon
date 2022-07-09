@@ -9,12 +9,23 @@ folder_dir = Path('D:\\Git\\Salmon\\Dataset\\Autodetect\\')
  
 # iterate over files in
 # that directory
-images = Path(folder_dir).glob('*.xml')
-for image in images:
-    print(image)
-    jpgfile = str(Path(image).parent.absolute())+"\\"+str(Path(image).stem)+".jpg"
+xmls = Path(folder_dir).glob('*.xml')
+for xml in xmls:
+    #print(xml)
+    jpgfile = str(Path(xml).parent.absolute())+"\\"+str(Path(xml).stem)+".jpg"
+    #print(jpgfile)
+    if not os.path.exists(jpgfile):
+        print("Warning")
+        Path.unlink(xml) 
+
+jpgs = Path(folder_dir).glob('*.jpg')
+for jpg in jpgs:
+    #print(jpg)
+    xmlfile = str(Path(jpg).parent.absolute())+"\\"+str(Path(jpg).stem)+".xml"
     print(jpgfile)
     if not os.path.exists(jpgfile):
         print("Warning")
-        Path.unlink(image) 
-    
+        print(jpgfile)
+
+        #  MOVE THE FILE Path.unlink(xml) 
+
