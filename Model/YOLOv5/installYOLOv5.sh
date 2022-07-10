@@ -1,6 +1,7 @@
 apt update
 #apt-get install ffmpeg libsm6 libxext6  -y
 python -m pip install --upgrade pip
+python -m pascal-voc-writer
 
 git clone https://github.com/ultralytics/yolov5
 cd yolov5
