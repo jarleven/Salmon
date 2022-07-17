@@ -1,7 +1,7 @@
-<annotation>
-	<folder>JarlEven</folder>
+<annotation verified="yes">
+	<folder>Background</folder>
 	<filename>syd__2019-07-30__09-30-00.mp4_06490.jpg</filename>
-	<path>/home/jarleven/fiskAI/ferdige/bakgrunn/JarlEven/syd__2019-07-30__09-30-00.mp4_06490.jpg</path>
+	<path>D:\Git\Salmon\Dataset\Background\syd__2019-07-30__09-30-00.mp4_06490.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
