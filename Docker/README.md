@@ -4,7 +4,12 @@
 ### K80 and YOLOv7 / YOLOv5
 
 ```
-# Ubuntu 18.04 
+# Ubuntu 18.04  
+sudo apt update && sudo apt upgrade -y
+
+wget https://us.download.nvidia.com/tesla/460.106.00/NVIDIA-Linux-x86_64-460.106.00.run
+chmod +x NVIDIA-Linux-x86_64-460.106.00.run
+sudo ./NVIDIA-Linux-x86_64-460.106.00.run --no-x-check
 
 sudo apt install -y sshfs 
 sudo mkdir /mnt/storage
