@@ -1,0 +1,26 @@
+<annotation>
+	<folder>2020-08-15</folder>
+	<filename>syd4k__2020-08-15__17-15-01_mp4___12994.jpg</filename>
+	<path>D:\FiskAI\NewDataset\2020-08-15\syd4k__2020-08-15__17-15-01_mp4___12994.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4096</width>
+		<height>2160</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>salmon</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1260</xmin>
+			<ymin>971</ymin>
+			<xmax>2995</xmax>
+			<ymax>1646</ymax>
+		</bndbox>
+	</object>
+</annotation>
