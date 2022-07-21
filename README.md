@@ -8,7 +8,7 @@ In shot it is multiple cameras in the Eidselva river tracking wild salmon with A
 
 
 ### Other datasets
-*[NorFisk, NTNU](https://dataverse.no/dataset.xhtml?persistentId=doi:10.18710/H5G3K5)
+* [NorFisk, NTNU](https://dataverse.no/dataset.xhtml?persistentId=doi:10.18710/H5G3K5)
 
 
 ### Current release is of the dataset is version v3
