@@ -1,9 +1,15 @@
 
-#### Glue to hold together the wild salmon project in Eidselva, Nordfjordeid, Norway
+### Glue to hold together the wild salmon project in Eidselva, Nordfjordeid, Norway
 
 This section will track, hardware, software and output of the project.
 
 In shot it is multiple cameras in the Eidselva river tracking wild salmon with AI.
+
+
+
+### Other datasets
+[NorFisk, NTNU](https://dataverse.no/dataset.xhtml?persistentId=doi:10.18710/H5G3K5)
+
 
 ### Current release is of the dataset is version v3
 [Download dataset v3](https://github.com/jarleven/Salmon/archive/refs/tags/v3.zip "download")
