@@ -11,14 +11,33 @@ wget https://us.download.nvidia.com/tesla/460.106.00/NVIDIA-Linux-x86_64-460.106
 chmod +x NVIDIA-Linux-x86_64-460.106.00.run
 sudo ./NVIDIA-Linux-x86_64-460.106.00.run --no-x-check
 
+
+
+## 23.11.2022 
+## NVIDIA DRIVER HP DL380 Gen 9  / K80
+#  Ubuntu 18.04
+# 
+sudo add-apt-repository -y ppa:graphics-drivers/ppa
+ubuntu-drivers devices
+sudo apt install nvidia-driver-470
+
+
 sudo apt install -y sshfs 
 sudo mkdir /mnt/storage
 sudo sshfs -o allow_other jarleven@192.168.1.199:/RAID/storage/2022/ /mnt/storage
 #sudo sshfs -o allow_other jarleven@192.168.1.165:/home/jarleven/laksenArcive/Archive /mnt/storage
  
 
+
+
+
 sudo docker pull nvidia/cuda:10.2-cudnn7-devel-ubuntu18.04
 sudo docker run --shm-size 8G --gpus all -it -v /mnt/storage:/storage nvidia/cuda:10.2-cudnn7-devel-ubuntu18.04
+
+# Tested 23.November 2022 with driver 470.141.03
+sudo docker pull nvidia/cuda:11.4.0-cudnn8-devel-ubuntu20.04
+sudo docker run --shm-size 8G --gpus all -it -v /mnt/storage:/storage nvidia/cuda:11.4.0-cudnn8-devel-ubuntu20.04
+
 
 
 apt update && apt upgrade -y
@@ -28,8 +47,13 @@ apt-get install -y make build-essential libssl-dev zlib1g-dev \
 libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev \
 libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python-openssl git vim wget unzip
 
+# Not included in 20.04 image above
+sudo apt install -y python3-pip
+python3 -m pip install --upgrade pip
 
 
+
+# 20.04 defaults to Python 3.8.10
 curl https://pyenv.run | bash
 
 # Load pyenv automatically by adding
