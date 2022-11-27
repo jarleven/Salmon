@@ -101,12 +101,15 @@ python -m pip install --upgrade pip
 git clone https://github.com/WongKinYiu/yolov7
 cd yolov7
 python -m pip install -r requirements.txt
-python -m pip install opencv-python-headless  # ImportError: libGL.so.1: cannot open shared object file: No such file or directory
+# python -m pip install opencv-python-headless  # ImportError: libGL.so.1: cannot open shared object file: No such file or directory
 
-#git clone https://github.com/ultralytics/yolov5.git
-#cd yolov5/
-#python3 -m pip install -r requirements.txt
+git clone https://github.com/ultralytics/yolov5.git
+cd yolov5/
+sed -i 's/opencv-python/opencv-python-headless/g' requirements.txt
+python3 -m pip install -r requirements.txt
+
 #python3 -m pip install opencv-python-headless  # ImportError: libGL.so.1: cannot open shared object file: No such file or directory
+
 
 # nvidia/cuda:11.6.2-cudnn8-devel-ubuntu20.04
 # Installs this 
