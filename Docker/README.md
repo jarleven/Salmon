@@ -120,3 +120,7 @@ python3 -m pip install onnx
 
 
 ```
+
+
+### List of NVIDA CUDA  containers
+https://gitlab.com/nvidia/container-images/cuda/blob/master/doc/supported-tags.md
