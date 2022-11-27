@@ -1,10 +1,22 @@
 ### Some notes about Docker (again)
 
 
+### List all docker containers
+
+
+sudo docker ps -a
+
+-rm (Delete container after closing)
+--name MyContainer (Give the container a name)
+
+sudo docker attach MyContainer
+
+
+
 ### K80 and YOLOv7 / YOLOv5
 
 ```
-# Ubuntu 18.04  
+# Ubuntu 18.04   
 sudo apt update && sudo apt upgrade -y
 
 wget https://us.download.nvidia.com/tesla/460.106.00/NVIDIA-Linux-x86_64-460.106.00.run
@@ -16,6 +28,7 @@ sudo ./NVIDIA-Linux-x86_64-460.106.00.run --no-x-check
 ## 23.11.2022 
 ## NVIDIA DRIVER HP DL380 Gen 9  / K80
 #  Ubuntu 18.04
+#  Ubuntu 20.04
 # 
 sudo add-apt-repository -y ppa:graphics-drivers/ppa
 ubuntu-drivers devices
@@ -38,6 +51,9 @@ sudo docker run --shm-size 8G --gpus all -it -v /mnt/storage:/storage nvidia/cud
 sudo docker pull nvidia/cuda:11.4.0-cudnn8-devel-ubuntu20.04
 sudo docker run --shm-size 8G --gpus all -it -v /mnt/storage:/storage nvidia/cuda:11.4.0-cudnn8-devel-ubuntu20.04
 
+# 27. November 2022
+sudo docker run --shm-size 8G --gpus all -it -v /mnt/storage:/storage nvidia/cuda:11.6.2-cudnn8-devel-ubuntu20.04
+
 
 
 apt update && apt upgrade -y
@@ -45,10 +61,11 @@ DEBIAN_FRONTEND=noninteractive TZ=Europe/Oslo apt-get -y install tzdata
 
 apt-get install -y make build-essential libssl-dev zlib1g-dev \
 libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev \
-libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python-openssl git vim wget unzip
+libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python3-openssl git vim wget unzip
 
 # Not included in 20.04 image above
-sudo apt install -y python3-pip
+apt install -y git vim wget curl unzip 
+apt install -y python3 python3-pip python3-openssl
 python3 -m pip install --upgrade pip
 
 
@@ -85,13 +102,16 @@ python -m pip install opencv-python-headless  # ImportError: libGL.so.1: cannot 
 
 #git clone https://github.com/ultralytics/yolov5.git
 #cd yolov5/
-#python -m pip install -r requirements.txt
-#python -m pip install opencv-python-headless  # ImportError: libGL.so.1: cannot open shared object file: No such file or directory
+#python3 -m pip install -r requirements.txt
+#python3 -m pip install opencv-python-headless  # ImportError: libGL.so.1: cannot open shared object file: No such file or directory
 
+# nvidia/cuda:11.6.2-cudnn8-devel-ubuntu20.04
+# Installs this 
+#python3 -m pip install nvidia-tensorrt==8.4.3.1 --index-url https://pypi.ngc.nvidia.com
 
-python -m pip install nvidia-tensorrt==8.0.3.4 --index-url https://pypi.ngc.nvidia.com
-python -m pip install nvidia-pyindex
-python -m pip install onnx
+python3 -m pip install nvidia-tensorrt==8.0.3.4 --index-url https://pypi.ngc.nvidia.com
+python3 -m pip install nvidia-pyindex
+python3 -m pip install onnx
 
 
 
