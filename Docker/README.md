@@ -51,6 +51,8 @@ sudo docker run --shm-size 8G --gpus all -it -v /mnt/storage:/storage nvidia/cud
 # Tested 23.November 2022 with driver 470.141.03
 sudo docker pull nvidia/cuda:11.4.0-cudnn8-devel-ubuntu20.04
 sudo docker run --shm-size 8G --gpus all -it -v /mnt/storage:/storage nvidia/cuda:11.4.0-cudnn8-devel-ubuntu20.04
+# 11.4.3 also available 27.11.2022
+
 
 # 27. November 2022
 sudo docker run --shm-size 8G --gpus all -it -v /mnt/storage:/storage nvidia/cuda:11.6.2-cudnn8-devel-ubuntu20.04
