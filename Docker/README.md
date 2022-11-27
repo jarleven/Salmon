@@ -11,7 +11,8 @@ sudo docker ps -a
 
 sudo docker attach MyContainer
 
-
+### Delete all Docker containers
+sudo docker system prune -a -f
 
 ### K80 and YOLOv7 / YOLOv5
 
