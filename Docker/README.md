@@ -1,20 +1,5 @@
 ### Some notes about Docker (again)
 
-
-### List all docker containers
-
-
-sudo docker ps -a
-
--rm (Delete container after closing)
---name MyContainer (Give the container a name)
-
-sudo docker attach MyContainer
-sudo docker start MyContainer
-
-### Delete all Docker containers
-sudo docker system prune -a -f
-
 ### K80 and YOLOv7 / YOLOv5
 
 ```
@@ -92,9 +77,25 @@ Enabled persistence mode for GPU 00000000:01:00.0.
 
 sudo nvidia-smi -i 0 -pl 100
 Power limit for GPU 00000000:01:00.0 was set to 100.00 W from 149.00 W.
-
 ```
 
+
+
+### List all docker containers
+```
+sudo docker ps -a
+
+-rm (Delete container after closing)
+--name MyContainer (Give the container a name)
+
+sudo docker attach MyContainer
+sudo docker start MyContainer
+```
+
+### Delete all Docker containers
+```
+sudo docker system prune -a -f
+```
 
 ### List of NVIDA CUDA  containers
 https://gitlab.com/nvidia/container-images/cuda/blob/master/doc/supported-tags.md
