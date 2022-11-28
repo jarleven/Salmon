@@ -10,6 +10,7 @@ sudo docker ps -a
 --name MyContainer (Give the container a name)
 
 sudo docker attach MyContainer
+sudo docker start MyContainer
 
 ### Delete all Docker containers
 sudo docker system prune -a -f
