@@ -18,16 +18,6 @@ sudo docker system prune -a -f
 ### K80 and YOLOv7 / YOLOv5
 
 ```
-# Ubuntu 18.04   
-sudo apt update && sudo apt upgrade -y
-
-wget https://us.download.nvidia.com/tesla/460.106.00/NVIDIA-Linux-x86_64-460.106.00.run
-chmod +x NVIDIA-Linux-x86_64-460.106.00.run
-sudo ./NVIDIA-Linux-x86_64-460.106.00.run --no-x-check
-
-
-
-## 23.11.2022 
 ## NVIDIA DRIVER HP DL380 Gen 9  / K80
 #  Ubuntu 18.04
 #  Ubuntu 20.04
@@ -40,10 +30,8 @@ sudo apt install nvidia-driver-470
 sudo apt install -y sshfs 
 sudo mkdir /mnt/storage
 sudo sshfs -o allow_other jarleven@192.168.1.199:/RAID/storage/2022/ /mnt/storage
-#sudo sshfs -o allow_other jarleven@192.168.1.165:/home/jarleven/laksenArcive/Archive /mnt/storage
+#sudo sshfs -o allow_other jarleven@192.168.1.178:/home/jarleven/laksenArcive/Archive /mnt/storage
  
-
-
 
 
 sudo docker pull nvidia/cuda:10.2-cudnn7-devel-ubuntu18.04
@@ -64,8 +52,8 @@ apt update && apt upgrade -y
 DEBIAN_FRONTEND=noninteractive TZ=Europe/Oslo apt-get -y install tzdata
 
 apt-get install -y make build-essential libssl-dev zlib1g-dev \
-libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev \
-libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python3-openssl git vim wget unzip
+libbz2-dev libreadline-dev libsqlite3-dev llvm libncurses5-dev \
+libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev
 
 # Not included in 20.04 image above
 apt install -y git vim wget curl unzip 
@@ -73,53 +61,25 @@ apt install -y python3 python3-pip python3-openssl
 python3 -m pip install --upgrade pip
 
 
-
-# 20.04 defaults to Python 3.8.10
-curl https://pyenv.run | bash
-
-# Load pyenv automatically by adding
-# the following to ~/.bashrc:
-
-echo -e 'export PATH="$HOME/.pyenv/bin:$PATH"' >> ~/.bashrc 
-echo -e 'eval "$(pyenv init -)"' >> ~/.bashrc 
-echo -e 'eval "$(pyenv virtualenv-init -)"' >> ~/.bashrc 
-
-exec "$SHELL" # Or just restart your terminal
-
-# TODO. Could need a cleanup but works for installing Python 3.7.13 as default Python version
-pyenv install --list | grep " 3\.[678]"   # List versions available
-pyenv install -v 3.7.13
-
-pyenv versions
-
-eval "$(pyenv virtualenv-init -)"
-
-pyenv global 3.7.13
-
-python -m pip install --upgrade pip
-
-
-git clone https://github.com/WongKinYiu/yolov7
-cd yolov7
-python -m pip install -r requirements.txt
-# python -m pip install opencv-python-headless  # ImportError: libGL.so.1: cannot open shared object file: No such file or directory
-
 git clone https://github.com/ultralytics/yolov5.git
 cd yolov5/
 sed -i 's/opencv-python/opencv-python-headless/g' requirements.txt
 python3 -m pip install -r requirements.txt
 
-#python3 -m pip install opencv-python-headless  # ImportError: libGL.so.1: cannot open shared object file: No such file or directory
+python3 -m pip install nvidia-tensorrt==8.0.3.4 --index-url https://pypi.ngc.nvidia.com
+python3 -m pip install nvidia-pyindex
+python3 -m pip install onnx
 
 
 # nvidia/cuda:11.6.2-cudnn8-devel-ubuntu20.04
 # Installs this 
 #python3 -m pip install nvidia-tensorrt==8.4.3.1 --index-url https://pypi.ngc.nvidia.com
 
-python3 -m pip install nvidia-tensorrt==8.0.3.4 --index-url https://pypi.ngc.nvidia.com
-python3 -m pip install nvidia-pyindex
-python3 -m pip install onnx
 
+git clone https://github.com/WongKinYiu/yolov7
+cd yolov7
+python -m pip install -r requirements.txt
+# python -m pip install opencv-python-headless  # ImportError: libGL.so.1: cannot open shared object file: No such file or directory
 
 
 
