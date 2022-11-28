@@ -125,6 +125,16 @@ python3 -m pip install onnx
 
 ```
 
+### NVIDIA GPU power management
+```
+sudo nvidia-smi -i 0 -pm ENABLED
+Enabled persistence mode for GPU 00000000:01:00.0.
+
+sudo nvidia-smi -i 0 -pl 100
+Power limit for GPU 00000000:01:00.0 was set to 100.00 W from 149.00 W.
+
+```
+
 
 ### List of NVIDA CUDA  containers
 https://gitlab.com/nvidia/container-images/cuda/blob/master/doc/supported-tags.md
