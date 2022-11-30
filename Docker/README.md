@@ -99,3 +99,6 @@ sudo docker system prune -a -f
 
 ### List of NVIDA CUDA  containers
 https://gitlab.com/nvidia/container-images/cuda/blob/master/doc/supported-tags.md
+
+### Docker container name
+https://www.maxivanov.io/add-docker-container-name-to-shell-prompt/
