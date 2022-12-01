@@ -9,8 +9,9 @@ systemctl restart pveproxy.service pvedaemon.service
 
 
 ### Grub
-cat /etc/default/grub
 ```bash
+cat /etc/default/grub
+
 # If you change this file, run 'update-grub' afterwards to update
 # /boot/grub/grub.cfg.
 # For full documentation of the options in this file, see:
@@ -46,3 +47,79 @@ GRUB_CMDLINE_LINUX=""
 ```
 
 
+```bash
+cat /etc/modprobe.d/vfio.conf
+
+options vfio-pci ids=10de:102d disable_vga=1
+```
+
+
+```bash
+cat /etc/modprobe.d/blacklist.conf
+
+blacklist radeon
+blacklist nouveau
+blacklist nvidia
+blacklist snd_hda_intel
+```
+
+
+```bash
+lspci | grep NVIDIA
+
+86:00.0 3D controller: NVIDIA Corporation GK210GL [Tesla K80] (rev a1)
+87:00.0 3D controller: NVIDIA Corporation GK210GL [Tesla K80] (rev a1)
+```
+
+
+```bash
+cat /etc/pve/qemu-server/107.conf
+
+agent: 1
+args: -machine max-ram-below-4g=1G,kernel_irqchip=on
+balloon: 0
+bios: ovmf
+boot: order=scsi0;ide2;net0
+cores: 4
+efidisk0: VMRAID:vm-107-disk-0,efitype=4m,pre-enrolled-keys=1,size=4M
+hostpci0: 0000:86:00,pcie=1
+ide2: local:iso/ubuntu-18.04.6-live-server-amd64.iso,media=cdrom,size=969M
+machine: pc-q35-5.2
+memory: 16192
+meta: creation-qemu=6.2.0,ctime=1669200580
+name: K80
+net0: virtio=7E:09:B4:30:3A:19,bridge=vmbr0,firewall=1
+numa: 0
+ostype: l26
+scsi0: VMRAID:vm-107-disk-1,size=120G,ssd=1
+scsihw: virtio-scsi-pci
+smbios1: uuid=2df19427-871d-4453-92cc-602ce49dd383
+sockets: 2
+vmgenid: a23bfba1-22e4-4830-a14f-c1feee5a0dd8
+```
+
+
+```bash
+cat /etc/pve/qemu-server/108.conf
+
+agent: 1
+args: -machine max-ram-below-4g=1G,kernel_irqchip=on
+balloon: 0
+bios: ovmf
+boot: order=scsi0;ide2;net0
+cores: 3
+hostpci0: 0000:87:00.0,pcie=1
+ide2: local:iso/ubuntu-22.04.1-live-server-amd64.iso,media=cdrom,size=1440306K
+machine: pc-q35-5.2
+memory: 16000
+meta: creation-qemu=6.2.0,ctime=1669545525
+name: k80-i2
+net0: virtio=7E:53:78:8E:96:37,bridge=vmbr0,firewall=1
+numa: 0
+ostype: l26
+scsi0: VMRAID:vm-108-disk-0,size=100G,ssd=1
+scsihw: virtio-scsi-pci
+smbios1: uuid=207f730b-9438-4754-8136-b49027e69d93
+sockets: 2
+vmgenid: 2f4856f4-1028-4d05-bf59-6f839277e895
+```
