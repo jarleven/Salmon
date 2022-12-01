@@ -4,9 +4,33 @@
 
 #### Restart the pvedaemon (webservice ++)
 ```bash
+
 systemctl restart pveproxy.service pvedaemon.service
 ```
 
+### Network configuration
+```bash
+cat /etc/network/interfaces
+
+auto lo
+iface lo inet loopback
+
+iface eno1 inet manual
+
+auto vmbr0
+iface vmbr0 inet static
+        address 192.168.1.211/24
+        gateway 192.168.1.1
+        bridge-ports eno1
+        bridge-stp off
+        bridge-fd 0
+
+iface eno2 inet manual
+
+iface eno3 inet manual
+
+iface eno4 inet manual
+```
 
 ### Grub
 ```bash
@@ -46,7 +70,7 @@ GRUB_CMDLINE_LINUX=""
 #GRUB_INIT_TUNE="480 440 1"
 ```
 
-
+### PCI passthrough
 ```bash
 cat /etc/modprobe.d/vfio.conf
 
@@ -71,7 +95,7 @@ lspci | grep NVIDIA
 87:00.0 3D controller: NVIDIA Corporation GK210GL [Tesla K80] (rev a1)
 ```
 
-
+### Guest config files (Created in GUI - modified on the commandline)
 ```bash
 cat /etc/pve/qemu-server/107.conf
 
