@@ -93,6 +93,15 @@ cat /etc/modprobe.d/vfio.conf
 options vfio-pci ids=10de:102d disable_vga=1
 ```
 
+```bash
+cat /etc/modules
+
+vfio
+vfio_iommu_type1
+vfio_pci
+vfio_virqfd
+vendor-reset
+```
 
 ```bash
 cat /etc/modprobe.d/blacklist.conf
