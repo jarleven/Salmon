@@ -27,7 +27,7 @@ sudo apt install screen -y
 ```
 
 
-### Resetting the SSH/MDT keys
+### Resetting the SSH/MDT keys (Connect via the MicroUSB serialport
 ```
 dmesg | grep ttyUSB
 
