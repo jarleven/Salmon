@@ -13,7 +13,7 @@ https://coral.ai/docs/dev-board/serial-console/#connect-with-linux
 
 
 ### Install requirements
-```
+```bash
 
 python3 -m pip install --user mendel-development-tool
 echo 'export PATH="$PATH:$HOME/.local/bin"' >> ~/.bash_profile
@@ -46,9 +46,13 @@ screen /dev/ttyUSB0 115200
 vi /home/mendel/.ssh/authorized_keys
 
 # just hold "d" button   then "esc" button :wq and enter
-```
 
 ```
+
+
+### Example of invalid keys when tyring to log in to a random Coral Devboard in the lab
+```bash
+
 jarleven@ros2:~$ mdt shell
 Waiting for a device...
 Connecting to hopeful-yarn at 192.168.100.2
@@ -74,8 +78,5 @@ Failed to push via keymaster -- will attempt password login as a fallback.
 Can't login using default credentials: Bad authentication type; allowed types: ['publickey']
 jarleven@ros2:~$ 
 
-
-sudo usermod -aG plugdev,dialout <username>
-sudo apt install screen -y
 ```
 
