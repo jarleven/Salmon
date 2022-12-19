@@ -3,7 +3,7 @@
 !['DevBoard'](https://github.com/jarleven/Salmon/blob/master/GoogleCoral/images/Board.png)
 
 
-
+### A place to start
 ```
 
 https://coral.ai/docs/dev-board/mdt/
@@ -11,9 +11,8 @@ https://coral.ai/docs/dev-board/serial-console/#connect-with-linux
 
 ```
 
-#### The default username and password are both "mendel".
 
-
+### Install requirements
 ```
 
 python3 -m pip install --user mendel-development-tool
@@ -25,6 +24,28 @@ sudo apt install screen -y
 
 # If you experience problems reboot your PC
 
+```
+
+
+### Resetting the SSH/MDT keys
+```
+dmesg | grep ttyUSB
+
+[ 6437.706335] usb 2-13.1: cp210x converter now attached to ttyUSB0
+[ 6437.708049] usb 2-13.1: cp210x converter now attached to ttyUSB1
+
+USE USB 0 in this case
+
+screen /dev/ttyUSB0 115200
+
+Hit reset button !
+
+The default username and password are both "mendel".
+
+
+vi /home/mendel/.ssh/authorized_keys
+
+just hold "d" button   then "esc" button :wq and enter
 ```
 
 ```
@@ -56,26 +77,5 @@ jarleven@ros2:~$
 
 sudo usermod -aG plugdev,dialout <username>
 sudo apt install screen -y
-
-dmesg | grep ttyUSB
-
-[ 6437.706335] usb 2-13.1: cp210x converter now attached to ttyUSB0
-[ 6437.708049] usb 2-13.1: cp210x converter now attached to ttyUSB1
-
-USE USB 0 in this case
-
-screen /dev/ttyUSB0 115200
-
-Hit reset button !
-
-The default username and password are both "mendel".
-
-
-
-vi /home/mendel/.ssh/authorized_keys
-
-just hold "d" button   then "esc" button :wq and enter
-
-
 ```
 
