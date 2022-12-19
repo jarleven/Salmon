@@ -20,8 +20,10 @@ python3 -m pip install --user mendel-development-tool
 echo 'export PATH="$PATH:$HOME/.local/bin"' >> ~/.bash_profile
 source ~/.bash_profile
 
-sudo usermod -aG plugdev,dialout <username>
+sudo usermod -aG plugdev,dialout $USER
 sudo apt install screen -y
+
+# If you experience problems reboot your PC
 
 ```
 
