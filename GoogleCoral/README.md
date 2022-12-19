@@ -1,5 +1,9 @@
 ### Some info about the Google Coral TPU devboard
 
+!['DevBoard'](https://github.com/jarleven/Salmon/blob/master/GoogleCoral/images/Board.png)
+
+
+
 ```
 
 https://coral.ai/docs/dev-board/mdt/
