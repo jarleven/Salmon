@@ -28,24 +28,24 @@ sudo apt install screen -y
 
 
 ### Resetting the SSH/MDT keys (Connect via the MicroUSB serialport
-```
+```bash
 dmesg | grep ttyUSB
 
 [ 6437.706335] usb 2-13.1: cp210x converter now attached to ttyUSB0
 [ 6437.708049] usb 2-13.1: cp210x converter now attached to ttyUSB1
 
-USE USB 0 in this case
+# USE USB 0 in this case
 
 screen /dev/ttyUSB0 115200
 
-Hit reset button !
+# Hit reset button !
 
-The default username and password are both "mendel".
+# The default username and password are both "mendel".
 
 
 vi /home/mendel/.ssh/authorized_keys
 
-just hold "d" button   then "esc" button :wq and enter
+# just hold "d" button   then "esc" button :wq and enter
 ```
 
 ```
