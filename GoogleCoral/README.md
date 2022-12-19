@@ -73,10 +73,3 @@ just hold "d" button   then "esc" button :wq and enter
 
 ```
 
-
-
-
-
-
-
-```
