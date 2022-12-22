@@ -38,7 +38,7 @@ dmesg | grep ttyUSB
 
 screen /dev/ttyUSB0 115200
 
-# Hit reset button !
+# Hit reset button ! There should be data printed to the serialport.
 
 # The default username and password are both "mendel".
 
@@ -79,4 +79,17 @@ Can't login using default credentials: Bad authentication type; allowed types: [
 jarleven@ros2:~$ 
 
 ```
+
+### Upgrading the board
+
+!['Flash with fastboot'](https://coral.ai/static/docs/images/devboard/devboard-bootmode-emmc.jpg)
+
+```
+
+https://coral.ai/docs/dev-board/reflash/#flash-a-new-system-image
+
+```
+
+
+
 
