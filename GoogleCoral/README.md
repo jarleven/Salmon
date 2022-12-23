@@ -82,11 +82,12 @@ jarleven@ros2:~$
 
 ### Upgrading the board
 
+https://coral.ai/docs/dev-board/reflash/#flash-a-new-system-image
+
 !['Flash with fastboot'](https://coral.ai/static/docs/images/devboard/devboard-bootmode-emmc.jpg)
 
 ```
 
-https://coral.ai/docs/dev-board/reflash/#flash-a-new-system-image
 
 ```
 
