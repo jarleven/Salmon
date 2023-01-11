@@ -49,6 +49,8 @@ iface eno4 inet manual
 ```
 
 ### Grub (HP Proliant DL380 Gen9)
+
+#### update-grub
 ```bash
 cat /etc/default/grub
 
