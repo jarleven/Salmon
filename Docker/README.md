@@ -9,7 +9,7 @@
 # 
 sudo add-apt-repository -y ppa:graphics-drivers/ppa
 ubuntu-drivers devices
-sudo apt install nvidia-driver-470
+sudo apt install -y nvidia-driver-470
 
 
 sudo apt install -y sshfs 
