@@ -204,6 +204,34 @@ sockets: 2
 vmgenid: 2f4856f4-1028-4d05-bf59-6f839277e895
 ```
 
+```bash
+cat /etc/pve/qemu-server/102.conf
+
+agent: 1
+balloon: 0
+bios: ovmf
+boot: order=sata0;ide2;net0
+cores: 4
+efidisk0: local-lvm:vm-102-disk-0,efitype=4m,pre-enrolled-keys=1,size=4M
+hostpci0: 0000:07:00,pcie=1,x-vga=1
+ide2: local:iso/virtio-win-0.1.229.iso,media=cdrom,size=522284K
+machine: pc-q35-7.1
+memory: 32000
+meta: creation-qemu=7.1.0,ctime=1673954583
+name: GPUWin
+net0: virtio=02:E7:FC:90:CF:DE,bridge=vmbr0,firewall=1
+numa: 0
+ostype: win11
+sata0: local-lvm:vm-102-disk-1,size=100G,ssd=1
+scsihw: virtio-scsi-single
+smbios1: uuid=0d8d4b9c-7b49-41bb-b6a4-c277eb8e0fa9
+sockets: 2
+tpmstate0: local-lvm:vm-102-disk-2,size=4M,version=v2.0
+vga: virtio
+vmgenid: 5b7bedb9-2cf9-4f30-bed2-feb23fb52e01
+```
+
+
 
 ### Craft Computing
 ```
