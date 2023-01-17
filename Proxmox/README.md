@@ -88,11 +88,27 @@ GRUB_CMDLINE_LINUX=""
 #GRUB_INIT_TUNE="480 440 1"
 ```
 
-### PCI passthrough
+### PCI passthrough DL-380 Gen9 with NVIDIA Tesla K80
+
+```bash
+lspci | grep -i nvidia
+lscpi -n
+
+# The -n options shows the numeric ID's for the PCI device
+```
+
+
 ```bash
 cat /etc/modprobe.d/vfio.conf
 
 options vfio-pci ids=10de:102d disable_vga=1
+```
+
+### PCI passthrough DL-360p Gen8 with NVIDIA Tesla P4
+```bash
+cat /etc/modprobe.d/vfio.conf
+
+options vfio-pci ids=10de:1bb3 disable_vga=1
 ```
 
 ```bash
