@@ -138,6 +138,19 @@ lspci | grep NVIDIA
 87:00.0 3D controller: NVIDIA Corporation GK210GL [Tesla K80] (rev a1)
 ```
 
+### SPICE
+```bash
+
+Virt viewer
+
+Windows client
+https://virt-manager.org/download/
+
+sudo apt install -y virt-viewer
+```
+
+
+
 ### Guest config files (Created in GUI - modified on the commandline)
 ```bash
 cat /etc/pve/qemu-server/107.conf
