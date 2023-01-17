@@ -203,3 +203,9 @@ smbios1: uuid=207f730b-9438-4754-8136-b49027e69d93
 sockets: 2
 vmgenid: 2f4856f4-1028-4d05-bf59-6f839277e895
 ```
+
+
+### Craft Computing
+```
+Use ANY Headless GPU for Gaming in a Virtual Machine!  https://youtu.be/-34tu7uXCI8
+```
