@@ -242,4 +242,7 @@ Proxmox GPU Virtualization Tutorial with Custom Profiles thanks to vGPU_Unlock-R
 
 https://www.michaelstinkerings.org/using-vgpu-unlock-with-proxmox-7/
 
+
+https://gitlab.com/polloloco/vgpu-proxmox
+
 ```
