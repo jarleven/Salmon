@@ -234,10 +234,12 @@ vmgenid: 5b7bedb9-2cf9-4f30-bed2-feb23fb52e01
 
 
 
-### Craft Computing
+### Craft Computing vGPU / PCI Passthrough
 ```
 Use ANY Headless GPU for Gaming in a Virtual Machine! : https://youtu.be/-34tu7uXCI8
 
 Proxmox GPU Virtualization Tutorial with Custom Profiles thanks to vGPU_Unlock-RS : https://www.youtube.com/watch?v=jTXPMcBqoi8
+
+https://www.michaelstinkerings.org/using-vgpu-unlock-with-proxmox-7/
 
 ```
