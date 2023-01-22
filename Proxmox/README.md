@@ -92,7 +92,7 @@ GRUB_CMDLINE_LINUX=""
 
 ```bash
 lspci | grep -i nvidia
-lscpi -n
+lspci -n
 
 # The -n options shows the numeric ID's for the PCI device
 ```
