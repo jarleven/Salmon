@@ -245,4 +245,6 @@ https://www.michaelstinkerings.org/using-vgpu-unlock-with-proxmox-7/
 
 https://gitlab.com/polloloco/vgpu-proxmox
 
+https://pve.proxmox.com/wiki/NVIDIA_vGPU_on_Proxmox_VE_7.x
+
 ```
