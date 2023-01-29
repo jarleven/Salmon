@@ -88,11 +88,27 @@ GRUB_CMDLINE_LINUX=""
 #GRUB_INIT_TUNE="480 440 1"
 ```
 
-### PCI passthrough
+### PCI passthrough DL-380 Gen9 with NVIDIA Tesla K80
+
+```bash
+lspci | grep -i nvidia
+lspci -n
+
+# The -n options shows the numeric ID's for the PCI device
+```
+
+
 ```bash
 cat /etc/modprobe.d/vfio.conf
 
 options vfio-pci ids=10de:102d disable_vga=1
+```
+
+### PCI passthrough DL-360p Gen8 with NVIDIA Tesla P4
+```bash
+cat /etc/modprobe.d/vfio.conf
+
+options vfio-pci ids=10de:1bb3 disable_vga=1
 ```
 
 ```bash
@@ -121,6 +137,20 @@ lspci | grep NVIDIA
 86:00.0 3D controller: NVIDIA Corporation GK210GL [Tesla K80] (rev a1)
 87:00.0 3D controller: NVIDIA Corporation GK210GL [Tesla K80] (rev a1)
 ```
+
+### SPICE
+```bash
+
+Virt viewer
+
+Windows client
+https://virt-manager.org/download/
+
+sudo apt install -y virt-viewer
+
+```
+
+
 
 ### Guest config files (Created in GUI - modified on the commandline)
 ```bash
@@ -173,4 +203,48 @@ scsihw: virtio-scsi-pci
 smbios1: uuid=207f730b-9438-4754-8136-b49027e69d93
 sockets: 2
 vmgenid: 2f4856f4-1028-4d05-bf59-6f839277e895
+```
+
+```bash
+cat /etc/pve/qemu-server/102.conf
+
+agent: 1
+balloon: 0
+bios: ovmf
+boot: order=sata0;ide2;net0
+cores: 4
+efidisk0: local-lvm:vm-102-disk-0,efitype=4m,pre-enrolled-keys=1,size=4M
+hostpci0: 0000:07:00,pcie=1,x-vga=1
+ide2: local:iso/virtio-win-0.1.229.iso,media=cdrom,size=522284K
+machine: pc-q35-7.1
+memory: 32000
+meta: creation-qemu=7.1.0,ctime=1673954583
+name: GPUWin
+net0: virtio=02:E7:FC:90:CF:DE,bridge=vmbr0,firewall=1
+numa: 0
+ostype: win11
+sata0: local-lvm:vm-102-disk-1,size=100G,ssd=1
+scsihw: virtio-scsi-single
+smbios1: uuid=0d8d4b9c-7b49-41bb-b6a4-c277eb8e0fa9
+sockets: 2
+tpmstate0: local-lvm:vm-102-disk-2,size=4M,version=v2.0
+vga: virtio
+vmgenid: 5b7bedb9-2cf9-4f30-bed2-feb23fb52e01
+```
+
+
+
+### Craft Computing vGPU / PCI Passthrough
+```
+Use ANY Headless GPU for Gaming in a Virtual Machine! : https://youtu.be/-34tu7uXCI8
+
+Proxmox GPU Virtualization Tutorial with Custom Profiles thanks to vGPU_Unlock-RS : https://www.youtube.com/watch?v=jTXPMcBqoi8
+
+https://www.michaelstinkerings.org/using-vgpu-unlock-with-proxmox-7/
+
+
+https://gitlab.com/polloloco/vgpu-proxmox
+
+https://pve.proxmox.com/wiki/NVIDIA_vGPU_on_Proxmox_VE_7.x
+
 ```
