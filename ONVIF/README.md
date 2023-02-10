@@ -6,3 +6,6 @@
 ### Control camera with joystick
 
 * https://github.com/partofthething/joy-ptz-cam
+
+
+* https://github.com/quatanium/python-onvif
