@@ -4,6 +4,9 @@
 # https://pve.proxmox.com/wiki/NVIDIA_vGPU_on_Proxmox_VE_7.x
 
 touch pci-passthrough-config.txt
+FILENAME="pci-passthrough-config.txt"
+
+echo " -- PCI Passthrough settings ---" > $FILENAME 
 
 ## declare an array variable
 declare -a arr=("/etc/default/grub"
@@ -17,19 +20,20 @@ declare -a arr=("/etc/default/grub"
 ## now loop through the above array
 for i in "${arr[@]}"
 do
-   echo "### cat $i" >> pci-passthrough-config.txt
-   echo "```" >> pci-passthrough-config.txt
-   cat "$i" >> pci-passthrough-config.txt
-   echo "```" >> pci-passthrough-config.txt
+   echo "### cat $i" >> $FILENAME
+   echo "```" >> $FILENAME
+   cat "$i" >> $FILENAME
+   echo "```" >> $FILENAME
 
-   echo "" >> pci-passthrough-config.txt
-   echo "" >> pci-passthrough-config.txt
+   echo "" >> $FILENAME
+   echo "" >> $FILENAME
 done
 
-echo "Installed NVIDIA GPUs" >> pci-passthrough-config.txt
-echo "```" >> pci-passthrough-config.txt
-lspci -n | grep -i 10DE >> pci-passthrough-config.txt
-lspci | grep -i NVIDIA  >> pci-passthrough-config.txt
-echo "```" >> pci-passthrough-config.txt
+echo "Installed NVIDIA GPUs" >> $FILENAME
+echo "```" >> $FILENAME
+lspci -n | grep -i 10DE >> $FILENAME
+lspci | grep -i NVIDIA  >> $FILENAME
+echo "```" >> $FILENAME
 
-cat pci-passthrough-config.txt
+cat $FILENAME
+echo ""
