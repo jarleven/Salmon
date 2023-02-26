@@ -5,9 +5,8 @@
 * https://images.nvidia.com/content/pdf/grid/guides/GRID-vGPU-User-Guide.pdf
 
 
-https://www.techpowerup.com/vgabios/234590/234590
 
-cat /etc/vgpu_unlock/profile_override.toml
+####cat /etc/vgpu_unlock/profile_override.toml
 ```
 [profile.nvidia-65] # choose the profile you want here
 num_displays = 1
