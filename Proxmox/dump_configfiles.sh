@@ -18,15 +18,18 @@ declare -a arr=("/etc/default/grub"
 for i in "${arr[@]}"
 do
    echo "### cat $i" >> pci-passthrough-config.txt
+   echo "```" >> pci-passthrough-config.txt
    cat "$i" >> pci-passthrough-config.txt
-   # or do whatever with individual element of the array
-   echo "" >> pci-passthrough-config.txt
+   echo "```" >> pci-passthrough-config.txt
+
    echo "" >> pci-passthrough-config.txt
    echo "" >> pci-passthrough-config.txt
 done
 
 echo "Installed NVIDIA GPUs" >> pci-passthrough-config.txt
+echo "```" >> pci-passthrough-config.txt
 lspci -n | grep -i 10DE >> pci-passthrough-config.txt
 lspci | grep -i NVIDIA  >> pci-passthrough-config.txt
+echo "```" >> pci-passthrough-config.txt
 
 cat pci-passthrough-config.txt
