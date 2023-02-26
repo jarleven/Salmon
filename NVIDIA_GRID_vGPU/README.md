@@ -1,4 +1,4 @@
-### NVIDIA GRID / vGPU
+## NVIDIA GRID / vGPU
 
 
 * https://gitlab.com/polloloco/vgpu-proxmox
@@ -6,7 +6,7 @@
 
 
 
-####cat /etc/vgpu_unlock/profile_override.toml
+#### cat /etc/vgpu_unlock/profile_override.toml
 ```
 [profile.nvidia-65] # choose the profile you want here
 num_displays = 1
