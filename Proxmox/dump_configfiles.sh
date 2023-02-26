@@ -6,7 +6,11 @@
 touch pci-passthrough-config.txt
 FILENAME="pci-passthrough-config.txt"
 
-echo "## -- PCI Passthrough settings ---" > $FILENAME 
+echo "## -- PCI Passthrough settings ---" > $FILENAME
+dmidecode -s system-product-name  >> $FILENAME
+dmidecode -s bios-version  >> $FILENAME
+dmidecode -s bios-release-date  >> $FILENAME
+echo "" >> $FILENAME
 
 ## declare an array variable
 declare -a arr=("/etc/default/grub"
