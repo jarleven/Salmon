@@ -38,7 +38,7 @@ do
    echo "" >> $FILENAME
 done
 
-echo "Installed NVIDIA GPUs" >> $FILENAME
+echo "### Installed NVIDIA GPUs" >> $FILENAME
 echo "\`\`\`" >> $FILENAME
 lspci -n | grep -i 10DE >> $FILENAME
 lspci | grep -i NVIDIA  >> $FILENAME
