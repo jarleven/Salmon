@@ -18,8 +18,7 @@ GRUB_DEFAULT=0
 GRUB_TIMEOUT=5
 #GRUB_CMDLINE_LINUX_DEFAULT="quiet intel_iommu=on"
 #GRUB_DISTRIBUTOR=`lsb_release -i -s 2> /dev/null || echo Debian`
-#GRUB_CMDLINE_LINUX_DEFAULT="quiet"
-GRUB_CMDLINE_LINUX_DEFAULT="quiet intel_iommu=on vfio_iommu_type1.allow_unsafe_interrupts=1"
+GRUB_CMDLINE_LINUX_DEFAULT="quiet intel_iommu=on"
 GRUB_CMDLINE_LINUX=""
 
 # Uncomment to enable BadRAM filtering, modify to suit your needs
@@ -105,7 +104,8 @@ WantedBy=multi-user.target
 
 ### cat /etc/modprobe.d/vfio.conf
 ```
-options vfio-pci ids=10de:102d disable_vga=1
+# For vGPU this is different compared to PCI-Passthrough
+#options vfio-pci ids=10de:1bb3
 
 ```
 

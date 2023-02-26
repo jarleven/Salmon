@@ -1,0 +1,4 @@
+
+Description for building OKdo C100 eMMC image
+According to NVIDIA it is recommended to use Ubuntu 18.04
+
