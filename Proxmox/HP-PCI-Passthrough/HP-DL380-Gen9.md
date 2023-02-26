@@ -110,7 +110,7 @@ WantedBy=multi-user.target
 ```
 
 
-Installed NVIDIA GPUs
+### Installed NVIDIA GPUs
 ```
 88:00.0 0302: 10de:1bb3 (rev a1)
 88:00.0 3D controller: NVIDIA Corporation GP104GL [Tesla P4] (rev a1)
