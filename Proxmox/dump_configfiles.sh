@@ -3,8 +3,7 @@
 # https://gitlab.com/polloloco/vgpu-proxmox
 # https://pve.proxmox.com/wiki/NVIDIA_vGPU_on_Proxmox_VE_7.x
 
-touch pci-passthrough-config.txt
-FILENAME="pci-passthrough-config.txt"
+FILENAME="pci-passthrough-config.md"
 
 echo "## -- PCI Passthrough settings ---" > $FILENAME
 echo "### Hardware, BIOS version and BIOS date" >> $FILENAME
