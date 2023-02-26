@@ -6,7 +6,7 @@
 touch pci-passthrough-config.txt
 FILENAME="pci-passthrough-config.txt"
 
-echo " -- PCI Passthrough settings ---" > $FILENAME 
+echo "## -- PCI Passthrough settings ---" > $FILENAME 
 
 ## declare an array variable
 declare -a arr=("/etc/default/grub"
@@ -21,19 +21,19 @@ declare -a arr=("/etc/default/grub"
 for i in "${arr[@]}"
 do
    echo "### cat $i" >> $FILENAME
-   echo "```" >> $FILENAME
+   echo "\`\`\`" >> $FILENAME
    cat "$i" >> $FILENAME
-   echo "```" >> $FILENAME
+   echo "\`\`\`" >> $FILENAME
 
    echo "" >> $FILENAME
    echo "" >> $FILENAME
 done
 
 echo "Installed NVIDIA GPUs" >> $FILENAME
-echo "```" >> $FILENAME
+echo "\`\`\`" >> $FILENAME
 lspci -n | grep -i 10DE >> $FILENAME
 lspci | grep -i NVIDIA  >> $FILENAME
-echo "```" >> $FILENAME
+echo "\`\`\`" >> $FILENAME
 
 cat $FILENAME
 echo ""
