@@ -18,7 +18,7 @@ pci_id = 0x1BB111A3
 ```
 
 
-There is a Tesla P4 in the host, emmulating a Quadro P4000
+#### There is a Tesla P4 in the host, emmulating a Quadro P4000
 ```
   Model:	NVIDIA Quadro P4000
   Device Id:	10DE 1BB1
@@ -30,7 +30,7 @@ There is a Tesla P4 in the host, emmulating a Quadro P4000
   https://www.techpowerup.com/vgabios/234590/234590
 ```
 
-There is a Tesla P4 in the host, emmulating a GTX 1070
+#### There is a Tesla P4 in the host, emmulating a GTX 1070 (Not working)
 ```
 Manufacturer:	NVIDIA
 Model:	GTX 1070
@@ -42,13 +42,15 @@ pci_id = 0x1B81119D
 ```
 
 
-https://parsec.app/
-https://vb-audio.com/Cable/
+* Moonlight
+* ThightVNC
 
 
-Moonlight
-ThightVNC
+* https://parsec.app/
+* https://vb-audio.com/Cable/
+* https://www.michaelstinkerings.org/using-vgpu-unlock-with-proxmox-7/
 
 
-https://www.michaelstinkerings.org/using-vgpu-unlock-with-proxmox-7/
+
+
 
