@@ -28,7 +28,9 @@ sudo apt install -y i965-va-driver libvdpau-va-gl1
 
 
 ### Moonlight for Tegra
-´´´
+```
+
 https://github.com/moonlight-stream/moonlight-docs/wiki/Installing-Moonlight-Qt-on-Linux4Tegra-(L4T)-Ubuntu
 
-´´´
+```
+
