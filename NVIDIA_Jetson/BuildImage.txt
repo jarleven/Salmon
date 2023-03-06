@@ -13,6 +13,9 @@ According to NVIDIA it is recommended to use Ubuntu 18.04
 
 ### TP-LINK Archer T3U Plus
 ```
+https://www.tp-link.com/no/home-networking/high-gain-adapter/archer-t3u-plus/
+
+
 WI1 chip1: Realtek RTL8812BU
 
 Virkar på Jetson :
