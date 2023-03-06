@@ -1,10 +1,13 @@
 ## Official Okdo C100 resources
+```
+https://www.okdo.com/nl/getting-started/get-started-with-the-c100-nano-csi-cameras/
+https://www.okdo.com/getting-started/get-started-with-jetson-nano-4gb-and-csi-camera/#h-2-flash-microsd-card-toc
 
-* https://www.okdo.com/nl/getting-started/get-started-with-the-c100-nano-csi-cameras/
-
+```
+```
 Description for building OKdo C100 eMMC image
 According to NVIDIA it is recommended to use Ubuntu 18.04
-
+```
 
 
 
