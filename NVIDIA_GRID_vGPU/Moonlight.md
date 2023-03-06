@@ -18,9 +18,9 @@ https://streambuilder.pro/how-to-check-intel-quick-sync-video-support
 
 
 sudo apt update && sudo apt upgrade -y
-sudo apt install -y vdpau-driover-all
-sudo apt instal -y vainfosudo
-apt instal -y vdpauinfo
+sudo apt install -y vdpau-driver-all
+sudo apt install -y vainfo
+sudo apt install -y vdpauinfo
 sudo apt install -y i965-va-driver libvdpau-va-gl1
 
 ```
