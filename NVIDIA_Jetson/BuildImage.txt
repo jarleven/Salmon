@@ -10,6 +10,26 @@ According to NVIDIA it is recommended to use Ubuntu 18.04
 
 
 
+Install dependencies
+```
+#!/bin/bash
+
+sudo add-apt-repository ppa:git-core/ppa
+sudo apt update
+sudo apt install -y git
+
+
+sudo apt-get install -y bison flex
+sudo apt-get install -y qemu-user-static
+sudo apt-get install -y gcc-aarch64-linux-gnu
+```
+
+
+
+
+
+
+
 
 ### TP-LINK Archer T3U Plus
 ```
