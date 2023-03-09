@@ -42,7 +42,30 @@ git clone git://nv-tegra.nvidia.com/3rdparty/u-boot.git
 ```
 
 
-
+### Patch the Makefile
+```Diff
+diff --git a/Makefile b/Makefile
+index 4092d17..0f37007 100644
+--- a/Makefile
++++ b/Makefile
+@@ -78,7 +78,9 @@ build-signed: replace-u-boot
+ # Flash
+ #
+ Linux_for_Tegra/bootloader/t210ref/p3450-0000/u-boot.bin: $(U-BOOT)
+-	cp u-boot/u-boot{,.bin,.dtb,-dtb.bin} Linux_for_Tegra/bootloader/t210ref/p3450-0000
++	cp u-boot/u-boot.bin Linux_for_Tegra/bootloader/t210ref/p3450-0000
++	cp u-boot/u-boot.dtb Linux_for_Tegra/bootloader/t210ref/p3450-0000
++	cp u-boot/u-boot-dtb.bin Linux_for_Tegra/bootloader/t210ref/p3450-0000
+ 
+ .PHONY: replace-u-boot
+ replace-u-boot: Linux_for_Tegra/bootloader/t210ref/p3450-0000/u-boot.bin
+@@ -86,7 +88,7 @@ replace-u-boot: Linux_for_Tegra/bootloader/t210ref/p3450-0000/u-boot.bin
+ .PHONY: flash
+ flash: replace-u-boot
+ 	cd Linux_for_Tegra && \
+-	sudo ./flash.sh -r jetson-nano-emmc mmcblk0p1
++	sudo ./flash.sh jetson-nano-emmc mmcblk0p1
+```
 
 
 ### TP-LINK Archer T3U Plus
