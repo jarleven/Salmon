@@ -44,19 +44,6 @@ git clone git://nv-tegra.nvidia.com/3rdparty/u-boot.git
 * Sample Root Filesystem: Tegra_Linux_Sample-Root-Filesystem_R32.7.3_aarch64.tbz2
 * Driver Package (BSP) Sources: public_sources.tbz2
 
-### Initialize Jetpack
-```bash
-./init-jetpack
-```
-
-### Connect the "FC REC" pin to ground and connect a Micro-USB to the Jetson Devboard
-```bash
-make flash
-```
-
-
-
-
 ### Patch the Makefile
 Issue with the list of extensions and don't reuse system.img
 ```Diff
@@ -82,5 +69,20 @@ index 4092d17..0f37007 100644
 -	sudo ./flash.sh -r jetson-nano-emmc mmcblk0p1
 +	sudo ./flash.sh jetson-nano-emmc mmcblk0p1
 ```
+
+### Initialize Jetpack
+```bash
+./init-jetpack
+```
+
+### Connect the "FC REC" pin to ground and connect a Micro-USB to the Jetson Devboard
+```bash
+make flash
+```
+
+
+
+
+
 
 
