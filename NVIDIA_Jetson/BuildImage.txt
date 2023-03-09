@@ -30,9 +30,16 @@ sudo apt install -y gcc-aarch64-linux-gnu
 ### Clone the OKdo C100 repository
 ```
 git clone --recurse-submodules https://github.com/LetsOKdo/c100-bootupd.git
+
+This will normally fail ....
 ```
 
-
+### Clone the NVIDIA u-boot manually
+```
+cd ~/c100-bootupd
+rm -rf u-boot/
+git clone git://nv-tegra.nvidia.com/3rdparty/u-boot.git
+```
 
 
 
