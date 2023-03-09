@@ -15,8 +15,4 @@ Virkar på Jetson :
 https://www.okdo.com/getting-started/get-started-with-the-c100-nano-csi-cameras/
 https://www.okdo.com/getting-started/get-started-with-jetson-nano-4gb-and-csi-camera
 ```
-```
-Description for building OKdo C100 eMMC image
-According to NVIDIA it is recommended to use Ubuntu 18.04
-```
 
