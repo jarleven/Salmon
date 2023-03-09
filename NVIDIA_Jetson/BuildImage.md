@@ -2,7 +2,7 @@
 * https://github.com/LetsOKdo/c100-bootupd
 
 
-### Install dependencies
+### Install dependencies not included in Ubuntu 18.04
 ```
 #!/bin/bash
 
