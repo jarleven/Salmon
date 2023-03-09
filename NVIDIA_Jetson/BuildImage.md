@@ -15,7 +15,10 @@ sudo apt install -y qemu-user-static
 sudo apt install -y gcc-aarch64-linux-gnu
 ```
 
-git config username and e-mail
+### GIT configure name and e-mail
+```
+git config --global user.name "Jack Shitt" && git config --global user.email "jack.shitt@yahoo.com"
+```
 
 ### Restart
 
