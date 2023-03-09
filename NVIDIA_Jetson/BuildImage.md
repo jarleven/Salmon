@@ -44,14 +44,17 @@ rm -rf u-boot/
 git clone git://nv-tegra.nvidia.com/3rdparty/u-boot.git
 ```
 
-Copy over the NVIDIA files
+### Copy over the NVIDIA files
 
-
+### Initialize Jetpack
+```bash
 ./init-jetpack
+```
 
-# Connect the "FC REC" pin to ground and connect a Micro-USB to the Jetson Devboard
-
+### Connect the "FC REC" pin to ground and connect a Micro-USB to the Jetson Devboard
+```bash
 make flash
+```
 
 
 
