@@ -52,6 +52,7 @@ make flash
 
 
 ### Patch the Makefile
+Issue with the list of extensions and don't reuse system.img
 ```Diff
 diff --git a/Makefile b/Makefile
 index 4092d17..0f37007 100644
