@@ -20,11 +20,14 @@ sudo add-apt-repository -y ppa:git-core/ppa
 sudo apt update
 sudo apt install -y git
 
-
+sudo apt install -y build-essential
 sudo apt install -y bison flex
 sudo apt install -y qemu-user-static
 sudo apt install -y gcc-aarch64-linux-gnu
 ```
+
+git config username and e-mail
+
 ### Restart
 
 ### Clone the OKdo C100 repository
@@ -40,6 +43,17 @@ cd ~/c100-bootupd
 rm -rf u-boot/
 git clone git://nv-tegra.nvidia.com/3rdparty/u-boot.git
 ```
+
+Copy over the NVIDIA files
+
+
+./init-jetpack
+
+# Connect the "FC REC" pin to ground and connect a Micro-USB to the Jetson Devboard
+
+make flash
+
+
 
 
 ### Patch the Makefile
