@@ -1,14 +1,3 @@
-## Official Okdo C100 resources
-```
-https://www.okdo.com/getting-started/get-started-with-the-c100-nano-csi-cameras/
-https://www.okdo.com/getting-started/get-started-with-jetson-nano-4gb-and-csi-camera
-```
-```
-Description for building OKdo C100 eMMC image
-According to NVIDIA it is recommended to use Ubuntu 18.04
-```
-
-
 
 ### Install dependencies
 ```
@@ -44,7 +33,10 @@ rm -rf u-boot/
 git clone git://nv-tegra.nvidia.com/3rdparty/u-boot.git
 ```
 
-### Copy over the NVIDIA files
+### Copy the NVIDIA files to the c100-bootupd folder
+* Driver Package (BSP): Jetson-210_Linux_R32.7.3_aarch64.tbz2
+* Sample Root Filesystem: Tegra_Linux_Sample-Root-Filesystem_R32.7.3_aarch64.tbz2
+* Driver Package (BSP) Sources: public_sources.tbz2
 
 ### Initialize Jetpack
 ```bash
@@ -85,13 +77,3 @@ index 4092d17..0f37007 100644
 ```
 
 
-### TP-LINK Archer T3U Plus
-```
-https://www.tp-link.com/no/home-networking/high-gain-adapter/archer-t3u-plus/
-
-
-WI1 chip1: Realtek RTL8812BU
-
-Virkar på Jetson :
-	https://github.com/morrownr/88x2bu-20210702
-```
