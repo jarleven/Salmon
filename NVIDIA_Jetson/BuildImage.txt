@@ -10,7 +10,7 @@ According to NVIDIA it is recommended to use Ubuntu 18.04
 
 
 
-Install dependencies
+### Install dependencies
 ```
 #!/bin/bash
 
@@ -25,7 +25,12 @@ sudo apt install -y bison flex
 sudo apt install -y qemu-user-static
 sudo apt install -y gcc-aarch64-linux-gnu
 ```
+### Restart
 
+### Clone the OKdo C100 repository
+```
+git clone --recurse-submodules https://github.com/LetsOKdo/c100-bootupd.git
+```
 
 
 
