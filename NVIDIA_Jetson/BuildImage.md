@@ -1,4 +1,4 @@
-## Build image for OKdo C100 Jetson Nano
+## Build eMMC image for OKdo C100 Jetson Nano
 * https://github.com/LetsOKdo/c100-bootupd
 
 
