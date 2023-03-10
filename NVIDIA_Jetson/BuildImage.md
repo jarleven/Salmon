@@ -55,6 +55,8 @@ git clone git://nv-tegra.nvidia.com/3rdparty/u-boot.git
 
 ### Patch the Makefile
 Issue with the list of extensions and don't reuse system.img
+* https://stackoverflow.com/questions/12838278/using-curly-brackets-for-variable-expansion-in-makefile-doesnt-work
+
 ```Diff
 diff --git a/Makefile b/Makefile
 index 4092d17..0f37007 100644
