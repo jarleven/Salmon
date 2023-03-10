@@ -32,7 +32,16 @@ git clone --recurse-submodules https://github.com/LetsOKdo/c100-bootupd.git
 This will normally fail ....
 ```
 
-### Clone the NVIDIA u-boot manually
+### Download the NVIDIA Jetson Linux R32.7.3 files
+```bash
+cd ~/c100-bootupd
+
+wget --https-only -nv --show-progress --progress=bar:force:noscroll https://developer.nvidia.com/downloads/remetpack-463r32releasev73t210jetson-210linur3273aarch64tbz2 -O Jetson-210_Linux_R32.7.3_aarch64.tbz2
+wget --https-only -nv --show-progress --progress=bar:force:noscroll https://developer.nvidia.com/downloads/remeleasev73t210tegralinusample-root-filesystemr3273aarch64tbz2 -O Tegra_Linux_Sample-Root-Filesystem_R32.7.3_aarch64.tbz2
+wget --https-only -nv --show-progress --progress=bar:force:noscroll https://developer.nvidia.com/downloads/remack-sdksjetpack-463r32releasev73sourcest210publicsourcestbz2 -O public_sources.tbz2
+```
+
+### Clone the NVIDIA u-boot manually (Really needed ?)
 ```
 cd ~/c100-bootupd
 rm -rf u-boot/
